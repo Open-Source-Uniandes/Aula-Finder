@@ -77,10 +77,12 @@ const Buildings = () => {
       <React.Fragment>
         <Header backhref='/'/>
         <main>
-          <section className="select-time">
+          <section className="select-time" role="search" aria-label="Selección de día y hora">
+              <label htmlFor="select-day" className="visually-hidden">Día de la semana</label>
               <select name="select-day" id="select-day" 
                 value={day}
                 onChange={e => updatePage(e.target.value, null, true)}
+                aria-label="Seleccionar día de la semana"
                 >
                   <option value="L">L</option>
                   <option value="M">M</option>
@@ -91,22 +93,28 @@ const Buildings = () => {
                   <option value="D">D</option>
               </select>
         
+              <label htmlFor="select-hour" className="visually-hidden">Hora</label>
               <input type="time" name="select-hour" id="select-hour" 
                 value={time}
                 onChange={e => updatePage(null, e.target.value, true)}
+                aria-label="Seleccionar hora"
                 />
         
-              <button type="button" id="btn-update-time" onClick={now}>
+              <button type="button" id="btn-update-time" onClick={now} aria-label="Seleccionar hora actual">
                   Ahora
               </button>
           </section>
 
-          <section className="cards-container">
+          <section className="cards-container" role="list" aria-label="Lista de edificios disponibles">
             {
                 Object.entries(buildings).map(([bName, available]) => {
                 return (
-                <Link className="avoid-underline" to={'/classrooms/'+bName} key={bName}>
-                    <article className={`building-card available-lvl${available ? Math.min(3,Math.ceil((available+1)/10)) : 0}`} >
+                <Link className="avoid-underline" to={'/classrooms/'+bName} key={bName} role="listitem">
+                    <article className={`building-card available-lvl${available ? Math.min(3,Math.ceil((available+1)/10)) : 0}`}
+                      role="button"
+                      tabIndex={0}
+                      aria-label={`${bName}: ${available} ${available === 1 ? 'salón disponible' : 'salones disponibles'}`}
+                      >
                         <h2>{bName}</h2>
                         <p><span>{available}</span> {available === 1 ? 'salón disponible' : 'salones disponibles'}</p>
                     </article>

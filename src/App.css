@@ -1,12 +1,26 @@
 :root {
-  --light-gray: #dadce0;
-  --dark-gray: #494951;
-  --yellow: #fff353;
-  --strong-yellow: #f6c551; 
-  --pastel-red: #ff6961; /* lvl 0 */
-  --pastel-orange: #ff9688; /* lvl 1 */
-  --pastel-yellow: #f5fac1; /* lvl 2 */
-  --pastel-green: #ceffc9; /* lvl 3 */
+  /* Universidad de los Andes Official Brand Colors */
+  --uniandes-yellow: #FFC82E; /* Primary yellow */
+  --uniandes-red: #D71920; /* Primary red */
+  --uniandes-dark-gray: #58595B; /* Text and details */
+  --uniandes-light-gray: #E6E7E8; /* Backgrounds */
+  --uniandes-white: #FFFFFF;
+  
+  /* Functional colors for availability levels */
+  --status-unavailable: #FFE5E5; /* Light red tint */
+  --status-low: #FFF4CC; /* Light yellow tint */
+  --status-medium: #E8F5E9; /* Light green tint */
+  --status-high: #C8E6C9; /* Medium green */
+  
+  /* Legacy color mappings for compatibility */
+  --light-gray: var(--uniandes-light-gray);
+  --dark-gray: var(--uniandes-dark-gray);
+  --yellow: var(--uniandes-yellow);
+  --strong-yellow: var(--uniandes-yellow); 
+  --pastel-red: var(--status-unavailable);
+  --pastel-orange: var(--status-low);
+  --pastel-yellow: var(--status-low);
+  --pastel-green: var(--status-high);
 } 
 
 .App * {
@@ -42,29 +56,57 @@
   width: 50px;
   height: 50px;
   background-color: var(--light-gray);
-  border: 1px solid var(--dark-gray);
+  border: 2px solid var(--dark-gray);
   border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
   text-align: center;
 }
 
+.select-time #select-day:focus-visible,
+.select-time #select-hour:focus-visible {
+  outline: 3px solid var(--uniandes-red);
+  outline-offset: 2px;
+}
+
 .select-time #select-hour {
   height: 50px;
   font-size: 20px;
   text-align: center;
-  padding-left: 5px; /* agregué este padding */
+  padding-left: 5px;
+  border: 2px solid var(--dark-gray);
+  border-radius: 5px;
 }
 
 .select-time #btn-update-time {
-  padding: 7px 7px;
-  background-color: transparent;
-  border: 1px solid var(--dark-gray);
+  padding: 7px 15px;
+  background-color: var(--uniandes-yellow);
+  border: 2px solid var(--dark-gray);
   border-radius: 10px;
   font-size: 20px;
   font-weight: 700;
   display: flex;
   justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.select-time #btn-update-time:hover {
+  background-color: var(--uniandes-red);
+  color: var(--uniandes-white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.select-time #btn-update-time:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.select-time #btn-update-time:focus-visible {
+  outline: 3px solid var(--uniandes-red);
+  outline-offset: 2px;
 }
 
 .cards-container {
@@ -77,4 +119,16 @@
 
 .avoid-underline {
   text-decoration: none;  
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
