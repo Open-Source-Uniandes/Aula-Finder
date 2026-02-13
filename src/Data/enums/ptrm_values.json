@@ -1,0 +1,17 @@
+{
+  "_metadata": {
+    "generated_at": "2026-02-13T06:19:41.157606",
+    "source_file": "src/Data/courses202610.json",
+    "term": "202610",
+    "count": 7
+  },
+  "ptrm_values": {
+    "1": "16 SEMANAS",
+    "10": "ESPECIALIDADES MEDICAS",
+    "2": "16 SEMANAS",
+    "3": "CURSOS MEDICINA - 21 SEMANAS",
+    "8A": "PRIMER CICLO - 8 SEMANAS",
+    "8B": "SEGUNDO CICLO - 8 SEMANAS",
+    "D": "16 SEMANAS"
+  }
+}
