@@ -6,7 +6,16 @@ const Footer = () => {
       <React.Fragment>
         <footer>
           <p>Hecho con <span role="img" aria-label="Love">💛</span> en Uniandes</p>
-          <p><strong><a href="https://github.com/Open-Source-Uniandes/Sobrecupo">Sé parte de este proyecto aquí</a></strong></p>
+          <div className="footer-links">
+            <p><strong><a href="https://github.com/Open-Source-Uniandes/Sobrecupo" target="_blank" rel="noopener noreferrer">
+              Contribuye en GitHub
+            </a></strong></p>
+            <p className="footer-help">
+              <a href="https://github.com/Open-Source-Uniandes/Sobrecupo/issues" target="_blank" rel="noopener noreferrer">
+                Reporta errores o sugiere ideas
+              </a>
+            </p>
+          </div>
         </footer>
       </React.Fragment>
     )

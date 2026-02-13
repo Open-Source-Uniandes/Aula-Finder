@@ -1,0 +1,3 @@
+# This file ensures the directory is tracked by git
+# Add building images with the format: [building-code]-building.jpg
+# Example: ml-building.jpg, sd-building.jpg

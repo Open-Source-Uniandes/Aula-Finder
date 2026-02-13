@@ -1,0 +1,28 @@
+{
+  "_comment": "Rooms that cannot be used by students (labs, restricted access, etc.)",
+  "_metadata": {
+    "last_updated": "2026-02-13",
+    "maintainer": "Open Source Uniandes",
+    "instructions": "Add rooms that should be shown but marked as unavailable/restricted"
+  },
+  "restricted": [
+    {
+      "building": "B",
+      "rooms": ["301", "302", "303", "304", "305", "306", "307", "308", "309", "310"],
+      "reason": "Laboratorios del tercer piso - Acceso restringido",
+      "floor": "3"
+    }
+  ],
+  "roomComments": {
+    "B_301": "Laboratorio - Acceso restringido",
+    "B_302": "Laboratorio - Acceso restringido",
+    "B_303": "Laboratorio - Acceso restringido",
+    "B_304": "Laboratorio - Acceso restringido",
+    "B_305": "Laboratorio - Acceso restringido",
+    "B_306": "Laboratorio - Acceso restringido",
+    "B_307": "Laboratorio - Acceso restringido",
+    "B_308": "Laboratorio - Acceso restringido",
+    "B_309": "Laboratorio - Acceso restringido",
+    "B_310": "Laboratorio - Acceso restringido"
+  }
+}

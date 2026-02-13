@@ -1,21 +1,48 @@
 import './App.css';
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Context from './Context';
-import Welcome from './Welcome/Welcome';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Buildings from './Buildings/Buildings';
 import Classrooms from './Classrooms/Classrooms';
 import ClassroomCalendar from './ClassroomCalendar/ClassroomCalendar';
 import courseFile from './Data/courses202610.json';
-import FloatingMailbox from 'react-floating-mailbox';
+import buildingConfig from './Data/config/buildingPriority.json';
+import restrictedRoomsConfig from './Data/config/restrictedRooms.json';
 
 
 //https://ofertadecursos.uniandes.edu.co/api/courses?term=&ptrm=&prefix=&attr=&nameInput=&campus=CAMPUS%20PRINCIPAL&attrs=&timeStart=&offset=0&limit=10000
 
 // CONSTANTES
-const days = ['l', 'm', 'i', 'j', 'v', 's', 'd']; 
+const days = ['l', 'm', 'i', 'j', 'v', 's', 'd'];
+const dayNames = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
+
+// Detectar ciclo actual (8A, 8B, o semestre completo)
+const detectCurrentCycle = (courses) => {
+  const now = new Date();
+  
+  // Buscar cursos 8A y 8B para determinar sus fechas
+  const cycle8A = courses.find(c => c.ptrm === '8A');
+  const cycle8B = courses.find(c => c.ptrm === '8B');
+  
+  if (cycle8A && cycle8A.schedules && cycle8A.schedules[0]) {
+    const date8AEnd = new Date(cycle8A.schedules[0].date_fin);
+    if (now <= date8AEnd) {
+      return '8A';
+    }
+  }
+  
+  if (cycle8B && cycle8B.schedules && cycle8B.schedules[0]) {
+    const date8BStart = new Date(cycle8B.schedules[0].date_ini);
+    const date8BEnd = new Date(cycle8B.schedules[0].date_fin);
+    if (now >= date8BStart && now <= date8BEnd) {
+      return '8B';
+    }
+  }
+  
+  return 'full'; // Semestre completo por defecto
+}; 
 
 // CLASES
 class Building
@@ -145,7 +172,8 @@ class Room
 const initialize = async (roomsJson) => {
   const buildings = {};
   let response = roomsJson;
-  //TODO revisar "CP", "K2", "ES"
+  
+  // Use whitelist approach instead of blacklist
   let building_blacklist = [
     "0", "", " -", "VIRT", "NOREQ", "SALA", "LIGA", "LAB", "FEDELLER", "ES", "FSFB", 
     "HFONTIB", "HLSAMAR", "HLVICT", "HSBOLIV", "HSUBA", "IMI", "MEDLEG", "SVICENP", "ZIPAUF"
@@ -167,6 +195,9 @@ const initialize = async (roomsJson) => {
       enrolled: element.enrolled,
       maxenrol: element.maxenrol,
       seatsavail: element.seatsavail,
+      term: element.term,
+      date_ini: element.schedules && element.schedules[0] ? element.schedules[0].date_ini : null,
+      date_fin: element.schedules && element.schedules[0] ? element.schedules[0].date_fin : null,
       allSchedules: element.schedules.map(s => ({
         day: days.find(d => s[d] !== null),
         time_ini: s.time_ini,
@@ -215,11 +246,14 @@ const initialize = async (roomsJson) => {
       }
     } 
   }
+  
   return buildings;
 }
 
 const App = () => {
   const [data, setData] = useState(undefined);
+  const [currentCycle, setCurrentCycle] = useState('full');
+  const [dataUpdateDate, setDataUpdateDate] = useState(null);
 
   // FUNCIÓN PARA OBTENER LA DISPONIBILIDAD DE LOS CURSOS
   const getAvailableRooms = (day, hour, building=undefined, floor=undefined) => {
@@ -236,20 +270,40 @@ const App = () => {
           continue;
         }
         const room = data[building_name].rooms[room_name];
+        
+        // Check if room is restricted
+        const roomKey = `${building_name}_${room_name}`;
+        const isRestricted = restrictedRoomsConfig.roomComments && restrictedRoomsConfig.roomComments[roomKey];
+        
         let room_availability = room.isAvailable(day, hour);
         room_availability["room"] = building_name+" "+room_availability["room"];
+        room_availability["restricted"] = isRestricted || false;
+        room_availability["restrictionReason"] = isRestricted ? restrictedRoomsConfig.roomComments[roomKey] : null;
         available_rooms.push(room_availability);
       }
     }
     return available_rooms;
   }
 
-  useEffect(() => {
+  // Helper function to check if a room is restricted
+  const isRoomRestricted = (building, room) => {
+    const roomKey = `${building}_${room}`;
+    return restrictedRoomsConfig.roomComments && restrictedRoomsConfig.roomComments[roomKey];
+  };
 
+  useEffect(() => {
     // 1.0 Carga la informacion de los salones desde el archivo JSON
     const loadData = async () => {
       const dt = await initialize(courseFile);  
       setData(dt); // En este punto se quita el símbolo de carga de la pantalla principal
+      
+      // Detect current cycle
+      const cycle = detectCurrentCycle(courseFile);
+      setCurrentCycle(cycle);
+      
+      // Set data update date (from file or current date)
+      setDataUpdateDate(new Date().toISOString());
+      
       return;
     }
     loadData();
@@ -261,14 +315,21 @@ const App = () => {
         <Context.Provider 
           value={{
             days,
+            dayNames,
             data,
-            getAvailableRooms
+            getAvailableRooms,
+            buildingConfig,
+            restrictedRoomsConfig,
+            isRoomRestricted,
+            currentCycle,
+            setCurrentCycle,
+            dataUpdateDate
           }}
         >
-          {/* <Header/> va dento de cada uno*/}
+          {/* <Header/> va dentro de cada uno*/}
             <BrowserRouter basename="/Sobrecupo">
             <Routes>
-              <Route path="/" element={<Welcome/>}/>
+              <Route path="/" element={<Navigate to="/buildings" replace />}/>
               <Route path="/buildings" element={<Buildings/>}/>
               <Route path="/classrooms/:building" element={<Classrooms/>}/>
               <Route path="/classroom/:building/:room" element={<ClassroomCalendar/>}/>
@@ -278,15 +339,6 @@ const App = () => {
           <Footer/>
         </Context.Provider>
       </div>
-      <FloatingMailbox
-        to="TODO@gmail.com"
-        subject="AulaFinder"
-        header="¡Cuéntanos tu experiencia, o escríbenos alguna nueva idea que tengas para implementar!"
-        serviceId="TODO: Cambiar serviceId"
-        templateId="TODO: Cambiar templateId"
-        userId="TODO: Cambiar userId"
-        lang="es"
-      />
     </>
   );
 }

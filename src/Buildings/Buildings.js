@@ -9,11 +9,8 @@ const Buildings = () => {
 
     const [day, setDay] = useState('L');
     const [time, setTime] = useState('--:--');
-    const [searchQuery, setSearchQuery] = useState('');
 
-    const [buildings, setBuildings] = useState({
-        'TODOS':0
-    });
+    const [buildings, setBuildings] = useState({});
 
     useEffect(() => {
         const d = sessionStorage.getItem('selected-day');
@@ -38,23 +35,15 @@ const Buildings = () => {
         const response = ctx.getAvailableRooms(ctx.days.indexOf(d.toLowerCase()),t);
 
         let bd = {}
-        let all = 0;
         for (const room of response) {
-            if (room.available) {
+            // Don't count restricted rooms in availability
+            if (!room.restricted && room.available) {
                 const b = room.room.split(' ')[0];
                 bd[b] = bd[b] ? bd[b]+1 : 1;
-                all++;
             }
         }
 
-        bd = Object.keys(bd).sort().reduce(
-          (obj, key) => { 
-            obj[key] = bd[key]; 
-            return obj;
-          }, {}
-        );
-
-        setBuildings({'TODOS':all, ...bd});
+        setBuildings(bd);
     }
 
     const now = () => {
@@ -74,20 +63,41 @@ const Buildings = () => {
         updatePage(d, t);
     }
 
-    // Filter buildings based on search query
-    const filteredBuildings = Object.entries(buildings).filter(([bName]) => {
-        if (!searchQuery) return true;
-        return bName.toLowerCase().includes(searchQuery.toLowerCase());
-    });
-
-    // Calculate availability percentage for color coding
-    const getAvailabilityPercentage = (available) => {
-        if (available === 0) return 0;
-        const total = ctx.data ? Object.values(ctx.data).reduce((sum, building) => {
-            return sum + Object.keys(building.rooms).length;
-        }, 0) : 1;
-        return (available / total) * 100;
+    // Order buildings by priority
+    const getOrderedBuildings = () => {
+        const priorityList = ctx.buildingConfig?.priorityBuildings || [];
+        const buildingNames = ctx.buildingConfig?.buildingNames || {};
+        
+        const ordered = [];
+        
+        // First add priority buildings in order
+        priorityList.forEach(code => {
+            if (ctx.data && ctx.data[code]) {
+                const available = buildings[code] || 0;
+                ordered.push({
+                    code,
+                    name: buildingNames[code] || code,
+                    available,
+                    isPriority: true
+                });
+            }
+        });
+        
+        // Then add other buildings alphabetically (these are hidden by default, but shown if they exist)
+        const otherBuildings = Object.keys(buildings)
+            .filter(code => !priorityList.includes(code))
+            .sort()
+            .map(code => ({
+                code,
+                name: buildingNames[code] || code,
+                available: buildings[code] || 0,
+                isPriority: false
+            }));
+        
+        return [...ordered, ...otherBuildings];
     };
+
+    const orderedBuildings = getOrderedBuildings();
 
     return (
       <React.Fragment>
@@ -98,13 +108,13 @@ const Buildings = () => {
                 value={day}
                 onChange={e => updatePage(e.target.value, null, true)}
                 >
-                  <option value="L">L</option>
-                  <option value="M">M</option>
-                  <option value="I">I</option>
-                  <option value="J">J</option>
-                  <option value="V">V</option>
-                  <option value="S">S</option>
-                  <option value="D">D</option>
+                  <option value="L">Lunes</option>
+                  <option value="M">Martes</option>
+                  <option value="I">Miércoles</option>
+                  <option value="J">Jueves</option>
+                  <option value="V">Viernes</option>
+                  <option value="S">Sábado</option>
+                  <option value="D">Domingo</option>
               </select>
         
               <input type="time" name="select-hour" id="select-hour" 
@@ -117,50 +127,32 @@ const Buildings = () => {
               </button>
           </section>
 
-          <section className="search-container">
-              <input 
-                type="text" 
-                placeholder="🔍 Buscar edificio..." 
-                value={searchQuery}
-                onChange={e => setSearchQuery(e.target.value)}
-                className="search-input"
-              />
-          </section>
-
           <section className="buildings-grid">
             {
-                filteredBuildings.map(([bName, available]) => {
-                const percentage = getAvailabilityPercentage(available);
+                orderedBuildings.map(({code, name, available}) => {
+                const hasAvailability = available > 0;
                 return (
-                <Link className="avoid-underline" to={'/classrooms/'+bName} key={bName}>
-                    <article className={`building-card available-lvl${available ? Math.min(3,Math.ceil((available+1)/10)) : 0}`} >
-                        <div className="building-icon">🏛️</div>
-                        <h2 className="building-name">{bName}</h2>
-                        <div className="building-stats">
-                            <span className="availability-number">{available}</span>
-                            <span className="availability-label">
-                                {available === 1 ? 'salón disponible' : 'salones disponibles'}
-                            </span>
+                <Link className="avoid-underline" to={'/classrooms/'+code} key={code}>
+                    <article className={`building-card ${!hasAvailability ? 'no-availability' : ''}`}>
+                        <div className="building-image-container">
+                            <img 
+                                src={`${process.env.PUBLIC_URL}/images/buildings/campus-uniandes.jpg`}
+                                alt={name}
+                                className="building-image"
+                                onError={(e) => {
+                                    e.target.src = `${process.env.PUBLIC_URL}/images/buildings/campus-uniandes.jpg`;
+                                }}
+                            />
                         </div>
-                        {percentage > 0 && (
-                            <div className="availability-bar">
-                                <div 
-                                    className="availability-bar-fill" 
-                                    style={{width: `${Math.min(percentage * 3, 100)}%`}}
-                                />
-                            </div>
-                        )}
+                        <div className="building-info">
+                            <h2 className="building-name">{name}</h2>
+                            <span className="building-code">{code}</span>
+                        </div>
                     </article>
                 </Link>
                 )})
             }
           </section>
-
-          {filteredBuildings.length === 0 && (
-            <div className="empty-search-state">
-              <p>No se encontraron edificios que coincidan con "{searchQuery}"</p>
-            </div>
-          )}
 
       </main>
       </React.Fragment>
