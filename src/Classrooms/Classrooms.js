@@ -1,6 +1,6 @@
 import './Classrooms.css';
 import React, { useContext, useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import Context from '../Context';
 import Header from '../Header/Header';
 
@@ -117,12 +117,52 @@ const Classrooms = () => {
 
             <section className="cards-container">
                 {
-                    classrooms[sorted].map((room) => 
-                    <article className={"classroom-card " + (room.available ? 'available' : '')} key={room.room}>
-                        <h2>{room.room}</h2>
-                        <p>Me {room.available ? 'ocupo' : 'desocupo'} a las <span>{room.time}</span></p>
-                    </article>
-                    )
+                    classrooms[sorted].map((room) => {
+                    const roomParts = room.room.split(' ');
+                    const buildingCode = roomParts[0];
+                    const roomNumber = roomParts[1];
+                    const currentCourse = room.currentCourse;
+                    const nextCourse = room.nextCourse;
+                    
+                    return (
+                    <Link 
+                        className="avoid-underline" 
+                        to={`/classroom/${buildingCode}/${roomNumber}`} 
+                        key={room.room}
+                    >
+                        <article className={"classroom-card " + (room.available ? 'available' : '')} >
+                            <h2>{room.room}</h2>
+                            {room.available ? (
+                                <>
+                                    <p className="availability-text">
+                                        Me ocupo a las <span>{room.time}</span>
+                                    </p>
+                                    {nextCourse && (
+                                        <p className="course-info">
+                                            Siguiente: {nextCourse.class} {nextCourse.course}
+                                            {nextCourse.ptrm === '8A' && <span className="ptrm-badge ptrm-8a">8A</span>}
+                                            {nextCourse.ptrm === '8B' && <span className="ptrm-badge ptrm-8b">8B</span>}
+                                        </p>
+                                    )}
+                                </>
+                            ) : (
+                                <>
+                                    <p className="availability-text">
+                                        Me desocupo a las <span>{room.time}</span>
+                                    </p>
+                                    {currentCourse && (
+                                        <p className="course-info">
+                                            Actual: {currentCourse.class} {currentCourse.course}
+                                            {currentCourse.ptrm === '8A' && <span className="ptrm-badge ptrm-8a">8A</span>}
+                                            {currentCourse.ptrm === '8B' && <span className="ptrm-badge ptrm-8b">8B</span>}
+                                        </p>
+                                    )}
+                                </>
+                            )}
+                            <p className="click-hint">Click para ver horario completo</p>
+                        </article>
+                    </Link>
+                    )})
                 }
             </section>
 

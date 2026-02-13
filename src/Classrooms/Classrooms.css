@@ -3,25 +3,68 @@
     border-radius: 5px;
     overflow: hidden;
     background-color: var(--pastel-red);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.classroom-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .available {
     background-color: var(--pastel-green);
 }
 
-.classroom-card :first-child { /* Building name */
+.classroom-card :first-child { /* Classroom name */
     padding: 10px 5px;
     text-align: center;
 }
 
-.classroom-card :last-child { /* Building availability text */
+.classroom-card .availability-text { /* Availability text */
     padding: 5px 5px;
     text-align: center;
 }
 
-.classroom-card :last-child span { /* Building availability number */
+.classroom-card .availability-text span { /* Time */
     padding: 0;
     font-weight: 700;
+}
+
+.classroom-card .course-info {
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0;
+}
+
+.classroom-card .click-hint {
+    padding: 5px;
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.ptrm-badge {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.ptrm-8a {
+    background-color: #ff9f1c;
+    color: white;
+}
+
+.ptrm-8b {
+    background-color: #25a18e;
+    color: white;
 }
 
 .switch-box {
