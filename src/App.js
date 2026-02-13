@@ -14,9 +14,7 @@ import FloatingMailbox from 'react-floating-mailbox';
 //https://ofertadecursos.uniandes.edu.co/api/courses?term=&ptrm=&prefix=&attr=&nameInput=&campus=CAMPUS%20PRINCIPAL&attrs=&timeStart=&offset=0&limit=10000
 
 // CONSTANTES
-const days = ['l', 'm', 'i', 'j', 'v', 's', 'd'];
-const retries = 3; // máximo de reintentos de llamar al API
-const cacheMins = 1440; // minutos antes de volver a llamar al API 
+const days = ['l', 'm', 'i', 'j', 'v', 's', 'd']; 
 
 // CLASES
 class Building
@@ -44,55 +42,95 @@ class Room
   constructor(name)
   {
     this.name = name
-    this.availability = Array(7)
+    // Store course details for each time slot per day
+    this.schedule = Array(7)
     for (let i=0; i<=6; i++)
     {
-      this.availability[i] = []
+      this.schedule[i] = [] // Array of {timeStart, timeEnd, course} objects
     }
   }
 
-  addAvailability(day, availability, timeIgnore) 
+  addSchedule(day, timeStart, timeEnd, courseInfo) 
   {
-    let auxAvailability = [availability[0].slice(0, 2) + ":" + availability[0].slice(2) , availability[1].slice(0, 2) + ":" + availability[1].slice(2)]
-    let i = 0
-    while(i < this.availability[day].length){
-      let todayAvailability = this.availability[day][i]
-      if(this.differenceHours(todayAvailability[0], auxAvailability[1])<=timeIgnore && this.differenceHours(todayAvailability[0], auxAvailability[1])>0){
-        let newAvailability = [...todayAvailability]
-        newAvailability[0] = auxAvailability[0]
-        this.availability[day].splice(i, 1)
-        this.addAvailability(day, newAvailability.map(item =>item.replace(':', '') ), timeIgnore)
-        return;
-      }else if(this.differenceHours(auxAvailability[0], todayAvailability[1])<=timeIgnore && this.differenceHours(todayAvailability[0], auxAvailability[1])<=timeIgnore>0){
-        let newAvailability = [...todayAvailability]
-        newAvailability[1] = auxAvailability[1]
-        this.availability[day].splice(i, 1)
-        this.addAvailability(day, newAvailability.map(item =>item.replace(':', '') ), timeIgnore)
-        return;
-      }
-    i++
-    }
-    this.availability[day].push(auxAvailability);
+    // Format times as HH:MM
+    const formattedStart = timeStart.slice(0, 2) + ":" + timeStart.slice(2);
+    const formattedEnd = timeEnd.slice(0, 2) + ":" + timeEnd.slice(2);
+    
+    // Add the schedule entry with course information
+    this.schedule[day].push({
+      timeStart: formattedStart,
+      timeEnd: formattedEnd,
+      course: courseInfo
+    });
   }
+
+  // Legacy method for backward compatibility - returns time ranges only
+  get availability() {
+    const availability = Array(7);
+    for (let i = 0; i <= 6; i++) {
+      availability[i] = this.schedule[i].map(slot => [slot.timeStart, slot.timeEnd]);
+    }
+    return availability;
+  }
+
+  // Get course info for a specific day and time
+  getCourseAt(day, hour) {
+    const daySchedule = this.schedule[day];
+    for (const slot of daySchedule) {
+      if (hour >= slot.timeStart && hour <= slot.timeEnd) {
+        return slot.course;
+      }
+    }
+    return null;
+  }
+
+  // Get all schedule entries for a specific day
+  getDaySchedule(day) {
+    return this.schedule[day];
+  }
+
   isAvailable(day, hour){
-    let todayAvailability = this.availability[day]
+    let todaySchedule = this.schedule[day]
     let isBusy = false
     let minDifference = null
     let nextTime = "23:59"
     let stopBusy = null
-    for (let availability of todayAvailability){
-      let difference = this.differenceHours(availability[0], hour)
+    let currentCourse = null
+    let nextCourse = null
+    
+    for (let slot of todaySchedule){
+      let difference = this.differenceHours(slot.timeStart, hour)
       if(difference>0 && (minDifference === null || difference < minDifference)){
         minDifference = difference
-        nextTime = availability[0]
+        nextTime = slot.timeStart
+        nextCourse = slot.course
       }
-      if(hour>=availability[0] && hour<=availability[1]){
-        stopBusy = availability[1]
+      if(hour>=slot.timeStart && hour<=slot.timeEnd){
+        stopBusy = slot.timeEnd
+        currentCourse = slot.course
         isBusy = true
       }
     }
-    if (isBusy){return {"room":this.name, "available":!isBusy, "time":stopBusy, "after":nextTime}}
-    else {return {"room":this.name, "available":!isBusy, "time":nextTime, "after": undefined}} 
+    if (isBusy){
+      return {
+        "room":this.name, 
+        "available":!isBusy, 
+        "time":stopBusy, 
+        "after":nextTime,
+        "currentCourse": currentCourse,
+        "nextCourse": nextCourse
+      }
+    }
+    else {
+      return {
+        "room":this.name, 
+        "available":!isBusy, 
+        "time":nextTime, 
+        "after": undefined,
+        "currentCourse": null,
+        "nextCourse": nextCourse
+      }
+    } 
   }
 
   differenceHours(hour_a, hour_b){
@@ -115,6 +153,28 @@ const initialize = async (roomsJson) => {
   let actual_date = new Date();
 
   for (let element of response ) {
+    // Prepare course info object that will be stored with each schedule
+    const courseInfo = {
+      class: element.class,
+      course: element.course,
+      section: element.section,
+      title: element.title,
+      nrc: element.nrc,
+      ptrm: element.ptrm,
+      ptrmdesc: element.ptrmdesc,
+      professors: element.instructors.map(inst => inst.name),
+      enrolled: element.enrolled,
+      maxenrol: element.maxenrol,
+      seatsavail: element.seatsavail,
+      allSchedules: element.schedules.map(s => ({
+        day: days.find(d => s[d] !== null),
+        time_ini: s.time_ini,
+        time_fin: s.time_fin,
+        classroom: s.classroom,
+        building: s.building
+      }))
+    };
+
     for (let pattern of element.schedules) {
       let date_ini = new Date(pattern.date_ini);
       let date_fin = new Date(pattern.date_fin);
@@ -141,7 +201,12 @@ const initialize = async (roomsJson) => {
 
         for (let day=0; day<=6; day++) {
           if (pattern[days[day]] !== null) {
-            buildings[building_name].getRoom(room_name).addAvailability(day, [pattern.time_ini, pattern.time_fin], 10);
+            buildings[building_name].getRoom(room_name).addSchedule(
+              day, 
+              pattern.time_ini, 
+              pattern.time_fin, 
+              courseInfo
+            );
           }
         }
 
