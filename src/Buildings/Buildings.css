@@ -1,37 +1,151 @@
+/* Search container */
+.search-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0 15px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid var(--light-gray);
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: var(--strong-yellow);
+}
+
+/* Grid layout for buildings */
+.buildings-grid {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
 .building-card {
-    border: 1px solid var(--strong-yellow);
-    border-radius: 5px;
+    border: 2px solid var(--strong-yellow);
+    border-radius: 12px;
     overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 180px;
 }
 
-.building-card :first-child { /* Building name */
-    padding: 10px 5px;
+.building-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.building-icon {
+    font-size: 36px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
-.building-card :last-child { /* Building availability text */
-    padding: 5px 5px;
+.building-name {
     text-align: center;
-    background-color: papayawhip;
-}
-
-.building-card :last-child span { /* Building availability number */
-    padding: 0;
+    font-size: 20px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
+.building-stats {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.availability-number {
+    font-size: 36px;
+    font-weight: 700;
+    display: block;
+}
+
+.availability-label {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.availability-bar {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.availability-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--pastel-red), var(--pastel-orange), var(--pastel-yellow), var(--pastel-green));
+    transition: width 0.3s ease;
+}
+
+/* Color levels */
 .available-lvl0 {
-    background-color: var(--pastel-red);
+    background: linear-gradient(135deg, var(--pastel-red) 0%, #ff8a80 100%);
 }
 
 .available-lvl1 {
-    background-color: var(--pastel-orange);
+    background: linear-gradient(135deg, var(--pastel-orange) 0%, #ffb88c 100%);
 }
 
 .available-lvl2 {
-    background-color: var(--pastel-yellow);
+    background: linear-gradient(135deg, var(--pastel-yellow) 0%, #fff9c4 100%);
 }
 
 .available-lvl3 {
-    background-color: var(--pastel-green);
+    background: linear-gradient(135deg, var(--pastel-green) 0%, #b2fab4 100%);
+}
+
+/* Empty state */
+.empty-search-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .buildings-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
+    .building-card {
+        min-height: 150px;
+        padding: 15px;
+    }
+
+    .building-icon {
+        font-size: 28px;
+    }
+
+    .building-name {
+        font-size: 18px;
+    }
+
+    .availability-number {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .buildings-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
 }

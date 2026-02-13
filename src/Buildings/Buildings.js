@@ -9,6 +9,7 @@ const Buildings = () => {
 
     const [day, setDay] = useState('L');
     const [time, setTime] = useState('--:--');
+    const [searchQuery, setSearchQuery] = useState('');
 
     const [buildings, setBuildings] = useState({
         'TODOS':0
@@ -73,6 +74,21 @@ const Buildings = () => {
         updatePage(d, t);
     }
 
+    // Filter buildings based on search query
+    const filteredBuildings = Object.entries(buildings).filter(([bName]) => {
+        if (!searchQuery) return true;
+        return bName.toLowerCase().includes(searchQuery.toLowerCase());
+    });
+
+    // Calculate availability percentage for color coding
+    const getAvailabilityPercentage = (available) => {
+        if (available === 0) return 0;
+        const total = ctx.data ? Object.values(ctx.data).reduce((sum, building) => {
+            return sum + Object.keys(building.rooms).length;
+        }, 0) : 1;
+        return (available / total) * 100;
+    };
+
     return (
       <React.Fragment>
         <Header backhref='/'/>
@@ -101,19 +117,50 @@ const Buildings = () => {
               </button>
           </section>
 
-          <section className="cards-container">
+          <section className="search-container">
+              <input 
+                type="text" 
+                placeholder="🔍 Buscar edificio..." 
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+                className="search-input"
+              />
+          </section>
+
+          <section className="buildings-grid">
             {
-                Object.entries(buildings).map(([bName, available]) => {
+                filteredBuildings.map(([bName, available]) => {
+                const percentage = getAvailabilityPercentage(available);
                 return (
                 <Link className="avoid-underline" to={'/classrooms/'+bName} key={bName}>
                     <article className={`building-card available-lvl${available ? Math.min(3,Math.ceil((available+1)/10)) : 0}`} >
-                        <h2>{bName}</h2>
-                        <p><span>{available}</span> {available === 1 ? 'salón disponible' : 'salones disponibles'}</p>
+                        <div className="building-icon">🏛️</div>
+                        <h2 className="building-name">{bName}</h2>
+                        <div className="building-stats">
+                            <span className="availability-number">{available}</span>
+                            <span className="availability-label">
+                                {available === 1 ? 'salón disponible' : 'salones disponibles'}
+                            </span>
+                        </div>
+                        {percentage > 0 && (
+                            <div className="availability-bar">
+                                <div 
+                                    className="availability-bar-fill" 
+                                    style={{width: `${Math.min(percentage * 3, 100)}%`}}
+                                />
+                            </div>
+                        )}
                     </article>
                 </Link>
                 )})
             }
           </section>
+
+          {filteredBuildings.length === 0 && (
+            <div className="empty-search-state">
+              <p>No se encontraron edificios que coincidan con "{searchQuery}"</p>
+            </div>
+          )}
 
       </main>
       </React.Fragment>

@@ -65,6 +65,12 @@
   font-weight: 700;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.select-time #btn-update-time:hover {
+  background-color: var(--light-gray);
 }
 
 .cards-container {
