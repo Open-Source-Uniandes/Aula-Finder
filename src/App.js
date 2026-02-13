@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Buildings from './Buildings/Buildings';
 import Classrooms from './Classrooms/Classrooms';
+import ClassroomCalendar from './ClassroomCalendar/ClassroomCalendar';
 import courseFile from './Data/courses202610.json';
 import FloatingMailbox from 'react-floating-mailbox';
 
@@ -270,6 +271,7 @@ const App = () => {
               <Route path="/" element={<Welcome/>}/>
               <Route path="/buildings" element={<Buildings/>}/>
               <Route path="/classrooms/:building" element={<Classrooms/>}/>
+              <Route path="/classroom/:building/:room" element={<ClassroomCalendar/>}/>
               <Route path="*" element={<PageNotFound/>}/>
             </Routes>
             </BrowserRouter>
