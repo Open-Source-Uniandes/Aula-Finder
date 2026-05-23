@@ -28,6 +28,12 @@ const DAY_NAMES: Record<string, string> = {
 };
 
 const DAY_ORDER: DayOfWeek[] = ["L", "M", "I", "J", "V", "S"];
+const SUNSET_MODAL_STORAGE_KEY = "sunsetModalEnabled";
+
+const getSunsetEnabledPreference = () => {
+  if (typeof window === "undefined") return true;
+  return localStorage.getItem(SUNSET_MODAL_STORAGE_KEY) !== "false";
+};
 
 function getCurrentDayCode(): DayOfWeek {
   const dayIndex = new Date().getDay();
@@ -84,6 +90,8 @@ function BuildingsPageInner() {
   const allBuildings = buildingsMetadata.buildings as BuildingMetadata[];
   const whitelisted = allBuildings.filter((b) => b.order !== undefined).sort((a, b) => (a.order || 0) - (b.order || 0));
 
+  const [sunsetEnabled, setSunsetEnabled] = useState(getSunsetEnabledPreference);
+  const [sunsetDismissed, setSunsetDismissed] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [showConfig, setShowConfig] = useState(shouldOpenConfigFromQuery);
   const [extraBuildings, setExtraBuildings] = useState<Set<string>>(new Set());
@@ -102,6 +110,7 @@ function BuildingsPageInner() {
     buildLinkQuery,
   } = useTimeState();
 
+  const showSunset = sunsetEnabled && !sunsetDismissed;
   // Check if university is closed
   const closureStatus = getClosureStatus(selectedDay, selectedTime);
 
@@ -325,6 +334,60 @@ function BuildingsPageInner() {
         </div>
       </div>
 
+      {/* Sunset Modal */}
+      <Modal open={showSunset} onOpenChange={(open) => setSunsetDismissed(!open)}>
+        <ModalContent className="max-h-[80vh] overflow-y-auto border-amber-200">
+          <ModalHeader>
+            <ModalTitle>Estamos migrando a la plataforma oficial</ModalTitle>
+          </ModalHeader>
+          <div className="mt-4 space-y-4 text-sm">
+            <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-amber-900">
+              Aula Finder será sustituido por una plataforma oficial de la universidad que les permitirá ver y
+              reservar la disponibilidad de salones en el campus.
+            </div>
+            <p className="text-muted-foreground">
+              La nueva plataforma oficial está disponible en{" "}
+              <a
+                href="https://serviciosalaulayauditorios.bookeau.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-uniandes-yellow underline"
+              >
+                serviciosalaulayauditorios.bookeau.com
+              </a>.
+              ¡Los invitamos a migrar a este nuevo sistema!
+            </p>
+            <p className="text-muted-foreground">
+              Esta es una versión no oficial ni mantenida. Open Source Uniandes seguirá recibiendo contribuciones
+              y mantendrá la plataforma en línea con la advertencia de que cierta información puede quedar
+              desactualizada en pro de la nueva plataforma.
+            </p>
+            <p className="text-muted-foreground">
+              Este código fue desarrollado para ustedes y se mantendrá el archivo por motivos históricos y para el
+              uso libre de cualquier interesadx.
+            </p>
+            <p className="text-muted-foreground">Gracias por todo su apoyo en este proyecto. — Equipo Open Source Uniandes</p>
+          </div>
+          <div className="mt-6 flex flex-col gap-2 sm:flex-row">
+            <a
+              href="https://serviciosalaulayauditorios.bookeau.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex flex-1 items-center justify-center rounded-lg bg-uniandes-dark px-4 py-2 text-sm font-medium text-white hover:bg-uniandes-dark/90 transition-colors"
+            >
+              Ir a la plataforma oficial
+            </a>
+            <button
+              onClick={() => setSunsetDismissed(true)}
+              className="inline-flex flex-1 items-center justify-center rounded-lg border border-uniandes-dark px-4 py-2 text-sm font-medium text-uniandes-dark hover:bg-uniandes-dark/10 transition-colors"
+              aria-label="Cerrar aviso de migración"
+            >
+              Continuar en Aula-Finder
+            </button>
+          </div>
+        </ModalContent>
+      </Modal>
+
       {/* Help Modal */}
       <Modal open={showHelp} onOpenChange={setShowHelp}>
         <ModalContent>
@@ -391,6 +454,27 @@ function BuildingsPageInner() {
             <ModalTitle>Configuración</ModalTitle>
           </ModalHeader>
           <div className="mt-4 space-y-4">
+            {/* Sunset modal toggle */}
+            <div>
+              <h3 className="text-sm font-semibold mb-2">Aviso de migración</h3>
+              <label className="flex items-center gap-2 text-sm cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={sunsetEnabled}
+                  onChange={(e) => {
+                    const next = e.target.checked;
+                    setSunsetEnabled(next);
+                    localStorage.setItem(SUNSET_MODAL_STORAGE_KEY, String(next));
+                    setSunsetDismissed(!next);
+                  }}
+                  className="rounded"
+                />
+                <span>Mostrar aviso al abrir la aplicación</span>
+              </label>
+              <p className="text-xs text-muted-foreground mt-1">
+                Puedes desactivar el modal de migración en cualquier momento.
+              </p>
+            </div>
             {/* Show restricted rooms toggle */}
             <div>
               <h3 className="text-sm font-semibold mb-2">Visibilidad de salones</h3>
