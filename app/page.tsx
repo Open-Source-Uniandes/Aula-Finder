@@ -465,9 +465,7 @@ function BuildingsPageInner() {
                     const next = e.target.checked;
                     setSunsetEnabled(next);
                     localStorage.setItem(SUNSET_MODAL_STORAGE_KEY, String(next));
-                    if (!next) {
-                      setSunsetDismissed(true);
-                    }
+                    setSunsetDismissed(!next);
                   }}
                   className="rounded"
                 />
