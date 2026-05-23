@@ -84,6 +84,7 @@ function BuildingsPageInner() {
   const allBuildings = buildingsMetadata.buildings as BuildingMetadata[];
   const whitelisted = allBuildings.filter((b) => b.order !== undefined).sort((a, b) => (a.order || 0) - (b.order || 0));
 
+  const [showSunset, setShowSunset] = useState(true);
   const [showHelp, setShowHelp] = useState(false);
   const [showConfig, setShowConfig] = useState(shouldOpenConfigFromQuery);
   const [extraBuildings, setExtraBuildings] = useState<Set<string>>(new Set());
@@ -324,6 +325,60 @@ function BuildingsPageInner() {
           </div>
         </div>
       </div>
+
+      {/* Sunset Modal */}
+      <Modal open={showSunset} onOpenChange={setShowSunset}>
+        <ModalContent className="max-h-[80vh] overflow-y-auto border-amber-200">
+          <ModalHeader>
+            <ModalTitle>Estamos migrando a la plataforma oficial</ModalTitle>
+          </ModalHeader>
+          <div className="mt-4 space-y-4 text-sm">
+            <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-amber-900">
+              Aula Finder será sustituido por una plataforma oficial de la universidad que les permitirá ver y
+              reservar la disponibilidad de salones en el campus.
+            </div>
+            <p className="text-muted-foreground">
+              La nueva plataforma oficial está disponible en{" "}
+              <a
+                href="https://serviciosalaulayauditorios.bookeau.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-uniandes-yellow underline"
+              >
+                serviciosalaulayauditorios.bookeau.com
+              </a>.
+              ¡Los invitamos a migrar a este nuevo sistema!
+            </p>
+            <p className="text-muted-foreground">
+              Esta es una versión no oficial ni mantenida. Open Source Uniandes seguirá recibiendo contribuciones
+              y mantendrá la plataforma en línea con la advertencia de que cierta información puede quedar
+              desactualizada en pro de la nueva plataforma.
+            </p>
+            <p className="text-muted-foreground">
+              Este código fue desarrollado para ustedes y se mantendrá el archivo por motivos históricos y para el
+              uso libre de cualquier interesadx.
+            </p>
+            <p className="text-muted-foreground">Gracias por todo su apoyo en este proyecto. — Equipo Open Source Uniandes</p>
+          </div>
+          <div className="mt-6 flex flex-col gap-2 sm:flex-row">
+            <a
+              href="https://serviciosalaulayauditorios.bookeau.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex flex-1 items-center justify-center rounded-lg bg-uniandes-dark px-4 py-2 text-sm font-medium text-white hover:bg-uniandes-dark/90 transition-colors"
+            >
+              Ir a la plataforma oficial
+            </a>
+            <button
+              onClick={() => setShowSunset(false)}
+              className="inline-flex flex-1 items-center justify-center rounded-lg border border-uniandes-dark px-4 py-2 text-sm font-medium text-uniandes-dark hover:bg-uniandes-dark/10 transition-colors"
+              aria-label="Cerrar aviso de migración"
+            >
+              Continuar en Aula-Finder
+            </button>
+          </div>
+        </ModalContent>
+      </Modal>
 
       {/* Help Modal */}
       <Modal open={showHelp} onOpenChange={setShowHelp}>
