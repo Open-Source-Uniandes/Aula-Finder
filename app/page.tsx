@@ -29,10 +29,16 @@ const DAY_NAMES: Record<string, string> = {
 
 const DAY_ORDER: DayOfWeek[] = ["L", "M", "I", "J", "V", "S"];
 const SUNSET_MODAL_STORAGE_KEY = "sunsetModalEnabled";
+const SUNSET_MODAL_SESSION_KEY = "sunsetModalDismissed";
 
 const getSunsetEnabledPreference = () => {
   if (typeof window === "undefined") return true;
   return localStorage.getItem(SUNSET_MODAL_STORAGE_KEY) !== "false";
+};
+
+const getSunsetSessionDismissed = () => {
+  if (typeof window === "undefined") return false;
+  return sessionStorage.getItem(SUNSET_MODAL_SESSION_KEY) === "true";
 };
 
 function getCurrentDayCode(): DayOfWeek {
@@ -91,7 +97,8 @@ function BuildingsPageInner() {
   const whitelisted = allBuildings.filter((b) => b.order !== undefined).sort((a, b) => (a.order || 0) - (b.order || 0));
 
   const [sunsetEnabled, setSunsetEnabled] = useState(getSunsetEnabledPreference);
-  const [sunsetDismissed, setSunsetDismissed] = useState(false);
+  const [sunsetDismissed, setSunsetDismissed] = useState(getSunsetSessionDismissed);
+  const [sunsetOptOutSelected, setSunsetOptOutSelected] = useState(!getSunsetEnabledPreference());
   const [showHelp, setShowHelp] = useState(false);
   const [showConfig, setShowConfig] = useState(shouldOpenConfigFromQuery);
   const [extraBuildings, setExtraBuildings] = useState<Set<string>>(new Set());
@@ -113,6 +120,13 @@ function BuildingsPageInner() {
   const showSunset = sunsetEnabled && !sunsetDismissed;
   // Check if university is closed
   const closureStatus = getClosureStatus(selectedDay, selectedTime);
+
+  const dismissSunsetModal = () => {
+    setSunsetDismissed(true);
+    if (typeof window !== "undefined") {
+      sessionStorage.setItem(SUNSET_MODAL_SESSION_KEY, "true");
+    }
+  };
 
   // Parse courses and compute availability
   const sections = parseCourseSections(coursesData as any[]);
@@ -331,11 +345,27 @@ function BuildingsPageInner() {
               crea un issue
             </a>.
           </div>
+          <div>
+            Nueva plataforma oficial:{" "}
+            <a
+              href="https://serviciosalaulayauditorios.bookeau.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-uniandes-yellow underline"
+            >
+              serviciosalaulayauditorios.bookeau.com
+            </a>
+          </div>
         </div>
       </div>
 
       {/* Sunset Modal */}
-      <Modal open={showSunset} onOpenChange={(open) => setSunsetDismissed(!open)}>
+      <Modal
+        open={showSunset}
+        onOpenChange={(open) => {
+          if (!open) dismissSunsetModal();
+        }}
+      >
         <ModalContent className="max-h-[80vh] overflow-y-auto border-amber-200">
           <ModalHeader>
             <ModalTitle>Estamos migrando a la plataforma oficial</ModalTitle>
@@ -375,13 +405,8 @@ function BuildingsPageInner() {
           <label className="mt-6 flex items-center gap-2 text-sm cursor-pointer">
             <input
               type="checkbox"
-              checked={!sunsetEnabled}
-              onChange={(e) => {
-                const nextEnabled = !e.target.checked;
-                setSunsetEnabled(nextEnabled);
-                localStorage.setItem(SUNSET_MODAL_STORAGE_KEY, String(nextEnabled));
-                if (!nextEnabled) setSunsetDismissed(true);
-              }}
+              checked={sunsetOptOutSelected}
+              onChange={(e) => setSunsetOptOutSelected(e.target.checked)}
               className="rounded"
             />
             <span>No volver a mostrar este aviso</span>
@@ -396,7 +421,12 @@ function BuildingsPageInner() {
               Ir a la plataforma oficial
             </a>
             <button
-              onClick={() => setSunsetDismissed(true)}
+              onClick={() => {
+                const nextEnabled = !sunsetOptOutSelected;
+                setSunsetEnabled(nextEnabled);
+                localStorage.setItem(SUNSET_MODAL_STORAGE_KEY, String(nextEnabled));
+                dismissSunsetModal();
+              }}
               className="inline-flex flex-1 items-center justify-center rounded-lg border border-uniandes-dark px-4 py-2 text-sm font-medium text-uniandes-dark hover:bg-uniandes-dark/10 transition-colors"
               aria-label="Cerrar aviso de migración"
             >
@@ -483,7 +513,7 @@ function BuildingsPageInner() {
                     const next = e.target.checked;
                     setSunsetEnabled(next);
                     localStorage.setItem(SUNSET_MODAL_STORAGE_KEY, String(next));
-                    setSunsetDismissed(!next);
+                    setSunsetOptOutSelected(!next);
                   }}
                   className="rounded"
                 />
