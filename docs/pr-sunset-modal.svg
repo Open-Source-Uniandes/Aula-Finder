@@ -1,0 +1,32 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#0F172A"/>
+  <rect x="140" y="110" width="920" height="455" rx="28" fill="#FFFFFF"/>
+  <rect x="140" y="110" width="920" height="70" rx="28" fill="#FDE68A"/>
+  <text x="190" y="155" font-family="Inter, Arial, sans-serif" font-size="26" fill="#111827" font-weight="600">
+    Estamos migrando a la plataforma oficial
+  </text>
+  <rect x="180" y="210" width="840" height="92" rx="16" fill="#FEF3C7"/>
+  <text x="210" y="248" font-family="Inter, Arial, sans-serif" font-size="18" fill="#92400E" font-weight="500">
+    Aula Finder será sustituido por una plataforma oficial de la universidad.
+  </text>
+  <text x="210" y="274" font-family="Inter, Arial, sans-serif" font-size="18" fill="#92400E" font-weight="500">
+    Te invitamos a migrar para ver y reservar salones.
+  </text>
+  <text x="180" y="350" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">
+    La nueva plataforma está disponible en:
+  </text>
+  <text x="180" y="380" font-family="Inter, Arial, sans-serif" font-size="18" fill="#1D4ED8" font-weight="600">
+    serviciosalaulayauditorios.bookeau.com
+  </text>
+  <rect x="180" y="430" width="400" height="50" rx="12" fill="#0F172A"/>
+  <text x="220" y="463" font-family="Inter, Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="600">
+    Ir a la plataforma oficial
+  </text>
+  <rect x="600" y="430" width="320" height="50" rx="12" stroke="#0F172A" fill="#FFFFFF"/>
+  <text x="640" y="463" font-family="Inter, Arial, sans-serif" font-size="16" fill="#0F172A" font-weight="600">
+    Continuar en Aula-Finder
+  </text>
+  <text x="180" y="520" font-family="Inter, Arial, sans-serif" font-size="14" fill="#64748B">
+    Modal de anuncio de migración (Home).
+  </text>
+</svg>
