@@ -7,6 +7,11 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 
 ## [No publicado]
 
+## [3.0.0] - 2026-05-24
+
+### Cambiado
+- Preparación de la versión 3.0.0
+
 ## [2.0.0] - 2026-05-24
 
 ### Añadido
@@ -36,6 +41,7 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 - Página 404 personalizada
 - Favicon basado en la mascota Seneca
 
-[No publicado]: https://github.com/Open-Source-Uniandes/Aula-Finder/compare/v2.0.0...HEAD
+[No publicado]: https://github.com/Open-Source-Uniandes/Aula-Finder/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/Open-Source-Uniandes/Aula-Finder/releases/tag/v3.0.0
 [2.0.0]: https://github.com/Open-Source-Uniandes/Aula-Finder/releases/tag/v2.0.0
 [1.0.0]: https://github.com/Open-Source-Uniandes/Aula-Finder/releases/tag/v1.0.0
