@@ -11,6 +11,7 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 
 ### Cambiado
 - Preparación de la versión 3.0.0 (sin cambios funcionales respecto a 2.0.0)
+- Aviso de sunset indicando que se favorece la plataforma oficial (ver modal en la página principal)
 
 ## [2.0.0] - 2026-05-24
 
