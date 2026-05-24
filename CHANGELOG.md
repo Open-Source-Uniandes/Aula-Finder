@@ -10,7 +10,7 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 ## [3.0.0] - 2026-05-24
 
 ### Cambiado
-- Preparación de la versión 3.0.0
+- Preparación de la versión 3.0.0 (sin cambios funcionales respecto a 2.0.0)
 
 ## [2.0.0] - 2026-05-24
 
