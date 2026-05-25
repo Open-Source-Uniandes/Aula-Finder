@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Open-Source-Uniandes/Aula-Finder#readme",
   "dependencies": {
-    "@openpanel/nextjs": "^1.5.0",
+    "@openpanel/nextjs": "^1.5.1",
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
