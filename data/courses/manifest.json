@@ -1,8 +1,8 @@
 {
-  "term": "202619",
-  "timestamp": "2026-06-19T20:45:35.238546",
-  "filename": "courses-202619.json",
-  "totalCourses": 233,
-  "totalSections": 316,
+  "term": "202620",
+  "timestamp": "2026-08-01T08:03:18.487543",
+  "filename": "courses-202620.json",
+  "totalCourses": 3285,
+  "totalSections": 6675,
   "source": "ofertadecursos.uniandes.edu.co API"
 }
