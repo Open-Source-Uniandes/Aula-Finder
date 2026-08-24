@@ -41,8 +41,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 80,
-    "enrolled": 79,
-    "seatsavail": 1,
+    "enrolled": 78,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -89,8 +89,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 67,
-    "enrolled": 61,
-    "seatsavail": 6,
+    "enrolled": 60,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -224,8 +224,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 43,
-    "enrolled": 34,
-    "seatsavail": 9,
+    "enrolled": 33,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -302,8 +302,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 44,
-    "enrolled": 40,
-    "seatsavail": 4,
+    "enrolled": 39,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -731,8 +731,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 48,
-    "seatsavail": 2,
+    "enrolled": 47,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -770,8 +770,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 49,
-    "seatsavail": 1,
+    "enrolled": 48,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -848,8 +848,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 59,
-    "seatsavail": 1,
+    "enrolled": 60,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -1160,8 +1160,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 50,
-    "seatsavail": 0,
+    "enrolled": 49,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -1238,8 +1238,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 47,
-    "enrolled": 43,
-    "seatsavail": 4,
+    "enrolled": 41,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "ADMI"
@@ -1433,8 +1433,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 49,
-    "seatsavail": 0,
+    "enrolled": 48,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "ADMI"
@@ -1658,8 +1658,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 44,
-    "enrolled": 44,
-    "seatsavail": 0,
+    "enrolled": 43,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -1697,8 +1697,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 46,
-    "enrolled": 45,
-    "seatsavail": 1,
+    "enrolled": 46,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -1905,8 +1905,8 @@
         "day": "L",
         "startTime": "12:30",
         "endTime": "13:50",
-        "building": "O",
-        "room": "404",
+        "building": "SD",
+        "room": "803",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -1915,7 +1915,7 @@
         "startTime": "12:30",
         "endTime": "13:50",
         "building": "O",
-        "room": "404",
+        "room": "205",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -2502,8 +2502,8 @@
         "day": "V",
         "startTime": "06:30",
         "endTime": "09:20",
-        "building": "C",
-        "room": "204",
+        "building": "O",
+        "room": "403",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -2592,8 +2592,8 @@
         "day": "L",
         "startTime": "14:00",
         "endTime": "16:50",
-        "building": "C",
-        "room": "205",
+        "building": "ML",
+        "room": "606",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -2690,8 +2690,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 16,
-    "seatsavail": 6,
+    "enrolled": 15,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -3296,8 +3296,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 45,
-    "seatsavail": 5,
+    "enrolled": 46,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -3530,8 +3530,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 48,
-    "seatsavail": 1,
+    "enrolled": 47,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -3608,8 +3608,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 46,
-    "enrolled": 40,
-    "seatsavail": 6,
+    "enrolled": 39,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -3647,8 +3647,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 13,
-    "seatsavail": 27,
+    "enrolled": 12,
+    "seatsavail": 28,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -3764,8 +3764,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 48,
-    "seatsavail": 0,
+    "enrolled": 47,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -3828,7 +3828,7 @@
         "building": "O",
         "room": "305",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "I",
@@ -3837,6 +3837,15 @@
         "building": "O",
         "room": "305",
         "dateIni": "2026-08-03 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "L",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "AU",
+        "room": "103-4",
+        "dateIni": "2026-08-24 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
@@ -3920,8 +3929,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 37,
-    "enrolled": 33,
-    "seatsavail": 4,
+    "enrolled": 32,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -4176,8 +4185,8 @@
         "day": "L",
         "startTime": "15:30",
         "endTime": "16:50",
-        "building": "ML",
-        "room": "604",
+        "building": "RGD",
+        "room": "07",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -4418,8 +4427,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 48,
-    "seatsavail": 1,
+    "enrolled": 47,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -4448,8 +4457,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 27,
-    "seatsavail": 13,
+    "enrolled": 25,
+    "seatsavail": 15,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -4997,8 +5006,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 57,
-    "enrolled": 51,
-    "seatsavail": 6,
+    "enrolled": 52,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -5465,8 +5474,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 50,
-    "seatsavail": 0,
+    "enrolled": 49,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "ADMI"
@@ -5504,8 +5513,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 60,
-    "seatsavail": 0,
+    "enrolled": 59,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -6197,8 +6206,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 42,
-    "enrolled": 38,
-    "seatsavail": 4,
+    "enrolled": 39,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -6716,8 +6725,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 33,
-    "enrolled": 30,
-    "seatsavail": 3,
+    "enrolled": 29,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -6956,8 +6965,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 27,
-    "seatsavail": 8,
+    "enrolled": 25,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7328,8 +7337,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 27,
-    "seatsavail": 13,
+    "enrolled": 26,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7426,8 +7435,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 41,
-    "enrolled": 39,
-    "seatsavail": 2,
+    "enrolled": 38,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7465,8 +7474,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 48,
-    "seatsavail": 1,
+    "enrolled": 47,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7504,8 +7513,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 56,
-    "seatsavail": 4,
+    "enrolled": 55,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7543,8 +7552,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 45,
-    "seatsavail": 4,
+    "enrolled": 44,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7699,8 +7708,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 27,
-    "seatsavail": 13,
+    "enrolled": 26,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "ADMI"
@@ -7768,8 +7777,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 36,
-    "seatsavail": 4,
+    "enrolled": 35,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7798,8 +7807,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 47,
-    "enrolled": 44,
-    "seatsavail": 3,
+    "enrolled": 43,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -7993,8 +8002,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 33,
-    "enrolled": 31,
-    "seatsavail": 2,
+    "enrolled": 32,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -8278,8 +8287,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 43,
-    "enrolled": 42,
-    "seatsavail": 1,
+    "enrolled": 41,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "ADMI"
@@ -8317,8 +8326,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 47,
-    "enrolled": 44,
-    "seatsavail": 3,
+    "enrolled": 45,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -8512,8 +8521,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 54,
-    "enrolled": 51,
-    "seatsavail": 3,
+    "enrolled": 50,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ADMI"
@@ -8542,8 +8551,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 39,
-    "enrolled": 35,
-    "seatsavail": 4,
+    "enrolled": 34,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "ADMI"
@@ -8692,8 +8701,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 21,
-    "seatsavail": 4,
+    "enrolled": 19,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "ANTR"
@@ -8722,8 +8731,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 19,
-    "seatsavail": 11,
+    "enrolled": 18,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "ANTR"
@@ -8752,8 +8761,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 19,
-    "enrolled": 18,
-    "seatsavail": 1,
+    "enrolled": 17,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ANTR"
@@ -9148,8 +9157,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 12,
-    "seatsavail": 3,
+    "enrolled": 11,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ANTR"
@@ -9217,8 +9226,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 15,
-    "seatsavail": 0,
+    "enrolled": 13,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ANTR"
@@ -11142,8 +11151,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 18,
-    "enrolled": 17,
-    "seatsavail": 1,
+    "enrolled": 18,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARQT"
@@ -11181,8 +11190,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 20,
-    "seatsavail": 0,
+    "enrolled": 19,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARQT"
@@ -12273,8 +12282,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 10,
-    "enrolled": 7,
-    "seatsavail": 3,
+    "enrolled": 6,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARQT"
@@ -13053,8 +13062,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 33,
-    "seatsavail": 7,
+    "enrolled": 32,
+    "seatsavail": 8,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARQT"
@@ -15561,8 +15570,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 22,
-    "seatsavail": 0,
+    "enrolled": 20,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARQT"
@@ -17343,8 +17352,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 21,
-    "enrolled": 21,
-    "seatsavail": 0,
+    "enrolled": 20,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARQT"
@@ -18071,9 +18080,9 @@
         "startTime": "14:00",
         "endTime": "16:50",
         "building": "C",
-        "room": "605",
+        "room": "309",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-28 00:00:00"
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
@@ -18382,6 +18391,15 @@
         "building": "C",
         "room": "605",
         "dateIni": "2026-08-03 00:00:00",
+        "dateFin": "2026-08-18 00:00:00"
+      },
+      {
+        "day": "M",
+        "startTime": "17:00",
+        "endTime": "18:50",
+        "building": "CH",
+        "room": "001",
+        "dateIni": "2026-08-25 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
@@ -19057,8 +19075,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 13,
-    "seatsavail": 2,
+    "enrolled": 12,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARTE"
@@ -19327,8 +19345,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 16,
-    "seatsavail": -1,
+    "enrolled": 15,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARTE"
@@ -19627,8 +19645,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 17,
-    "seatsavail": -2,
+    "enrolled": 16,
+    "seatsavail": -1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARTE"
@@ -19747,8 +19765,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 11,
-    "seatsavail": 4,
+    "enrolled": 10,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARTE"
@@ -20407,8 +20425,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 12,
-    "seatsavail": 3,
+    "enrolled": 11,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARTE"
@@ -20587,8 +20605,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 16,
-    "seatsavail": -1,
+    "enrolled": 15,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ARTE"
@@ -22714,7 +22732,7 @@
     "course": "AUTO5201",
     "title": "PROYECTO DE GRADO",
     "credits": 2,
-    "professors": "",
+    "professors": "LOPEZ JIMENEZ JORGE ALFREDO",
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 1,
@@ -22816,8 +22834,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 24,
-    "seatsavail": 2,
+    "enrolled": 23,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "BCOM"
@@ -23069,7 +23087,7 @@
     "course": "BIOE4101",
     "title": "MIGRACIONES (CICLO 1 DE 8 SEMANAS)",
     "credits": 4,
-    "professors": "ZULUAGA RODRIGUEZ LINDA ALEJANDRA",
+    "professors": "WOLF ALLISON BROOKE",
     "schedules": [
       {
         "day": "I",
@@ -23092,8 +23110,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 24,
-    "enrolled": 21,
-    "seatsavail": 3,
+    "enrolled": 20,
+    "seatsavail": 4,
     "modality": "Virtual",
     "language": "Español",
     "department": "BIOE"
@@ -23108,7 +23126,7 @@
     "course": "BIOE4102",
     "title": "DERECHO A LA SALUD (CICLO 2 DE 8 SEMANAS)",
     "credits": 4,
-    "professors": "WOLF ALLISON BROOKE",
+    "professors": "ZULUAGA RODRIGUEZ LINDA ALEJANDRA",
     "schedules": [
       {
         "day": "I",
@@ -23396,8 +23414,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 66,
-    "seatsavail": 4,
+    "enrolled": 65,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "BIOL"
@@ -23615,8 +23633,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 33,
-    "seatsavail": 2,
+    "enrolled": 32,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "BIOL"
@@ -25178,8 +25196,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 57,
-    "enrolled": 56,
-    "seatsavail": 1,
+    "enrolled": 57,
+    "seatsavail": 0,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBCC"
@@ -25256,8 +25274,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 55,
-    "enrolled": 55,
-    "seatsavail": 0,
+    "enrolled": 53,
+    "seatsavail": 2,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBCC"
@@ -25490,8 +25508,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 57,
-    "enrolled": 55,
-    "seatsavail": 2,
+    "enrolled": 56,
+    "seatsavail": 1,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBCC"
@@ -25958,8 +25976,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 53,
-    "enrolled": 53,
-    "seatsavail": 0,
+    "enrolled": 52,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBCC"
@@ -25980,8 +25998,8 @@
         "day": "M",
         "startTime": "12:00",
         "endTime": "13:50",
-        "building": "RGD",
-        "room": "106-7",
+        "building": "O",
+        "room": "104",
         "dateIni": "2026-10-05 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -26075,8 +26093,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 59,
-    "seatsavail": 1,
+    "enrolled": 60,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBCC"
@@ -26231,8 +26249,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 49,
-    "enrolled": 49,
-    "seatsavail": 0,
+    "enrolled": 48,
+    "seatsavail": 1,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBCC"
@@ -26387,8 +26405,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 16,
-    "seatsavail": 4,
+    "enrolled": 15,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBIO"
@@ -28162,8 +28180,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 59,
-    "seatsavail": 1,
+    "enrolled": 60,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -28184,8 +28202,8 @@
         "day": "M",
         "startTime": "15:30",
         "endTime": "16:50",
-        "building": "O",
-        "room": "205",
+        "building": "ML",
+        "room": "603",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -28193,16 +28211,16 @@
         "day": "J",
         "startTime": "15:30",
         "endTime": "16:50",
-        "building": "O",
-        "room": "205",
+        "building": "ML",
+        "room": "603",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 57,
-    "enrolled": 56,
-    "seatsavail": 1,
+    "enrolled": 54,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -28357,8 +28375,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 66,
-    "enrolled": 65,
-    "seatsavail": 1,
+    "enrolled": 64,
+    "seatsavail": 2,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBUH"
@@ -28474,8 +28492,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 57,
-    "seatsavail": 3,
+    "enrolled": 56,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -29026,8 +29044,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 59,
-    "seatsavail": 1,
+    "enrolled": 58,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -29329,8 +29347,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 65,
-    "enrolled": 62,
-    "seatsavail": 3,
+    "enrolled": 63,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -29446,8 +29464,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 59,
-    "seatsavail": 1,
+    "enrolled": 58,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -29542,8 +29560,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 59,
-    "enrolled": 58,
-    "seatsavail": 1,
+    "enrolled": 57,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -30010,8 +30028,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 63,
-    "enrolled": 62,
-    "seatsavail": 1,
+    "enrolled": 61,
+    "seatsavail": 2,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBUH"
@@ -30088,8 +30106,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 19,
-    "enrolled": 19,
-    "seatsavail": 0,
+    "enrolled": 18,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -30478,8 +30496,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 50,
-    "seatsavail": 0,
+    "enrolled": 49,
+    "seatsavail": 1,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBUH"
@@ -30673,8 +30691,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 34,
-    "seatsavail": 1,
+    "enrolled": 33,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "CBUH"
@@ -31054,8 +31072,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 55,
-    "enrolled": 55,
-    "seatsavail": 0,
+    "enrolled": 54,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -31474,8 +31492,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 19,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -31513,8 +31531,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 37,
-    "enrolled": 37,
-    "seatsavail": 0,
+    "enrolled": 36,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUH"
@@ -31747,8 +31765,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 55,
-    "enrolled": 51,
-    "seatsavail": 4,
+    "enrolled": 50,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -31825,8 +31843,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 77,
-    "enrolled": 74,
-    "seatsavail": 3,
+    "enrolled": 77,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -31903,8 +31921,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 79,
-    "enrolled": 77,
-    "seatsavail": 2,
+    "enrolled": 79,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -31942,8 +31960,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 58,
-    "seatsavail": 2,
+    "enrolled": 56,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -31981,8 +31999,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 65,
-    "enrolled": 61,
-    "seatsavail": 4,
+    "enrolled": 62,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -32011,8 +32029,8 @@
     ],
     "campus": "MEDICINA-CENTRO DE PRACTICAS",
     "maxenrol": 46,
-    "enrolled": 37,
-    "seatsavail": 9,
+    "enrolled": 35,
+    "seatsavail": 11,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -32284,8 +32302,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 65,
-    "enrolled": 65,
-    "seatsavail": 0,
+    "enrolled": 64,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -32337,7 +32355,7 @@
         "startTime": "12:30",
         "endTime": "13:50",
         "building": "R",
-        "room": "113",
+        "room": "210",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -32346,7 +32364,7 @@
         "startTime": "12:30",
         "endTime": "13:50",
         "building": "R",
-        "room": "113",
+        "room": "210",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -32392,8 +32410,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 39,
-    "enrolled": 39,
-    "seatsavail": 0,
+    "enrolled": 38,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -32470,8 +32488,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 80,
-    "enrolled": 76,
-    "seatsavail": 4,
+    "enrolled": 78,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -32609,8 +32627,8 @@
         "day": "M",
         "startTime": "11:00",
         "endTime": "12:20",
-        "building": "AU",
-        "room": "107",
+        "building": "RGD",
+        "room": "106-7",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -32618,9 +32636,18 @@
         "day": "J",
         "startTime": "11:00",
         "endTime": "12:20",
-        "building": "AU",
-        "room": "107",
+        "building": "O",
+        "room": "305",
         "dateIni": "2026-08-03 00:00:00",
+        "dateFin": "2026-08-23 00:00:00"
+      },
+      {
+        "day": "J",
+        "startTime": "11:00",
+        "endTime": "12:20",
+        "building": "LL",
+        "room": "201",
+        "dateIni": "2026-08-24 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
@@ -32899,8 +32926,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 39,
-    "enrolled": 39,
-    "seatsavail": 0,
+    "enrolled": 38,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -32959,8 +32986,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 46,
-    "enrolled": 46,
-    "seatsavail": 0,
+    "enrolled": 45,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -32998,8 +33025,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 44,
-    "seatsavail": 5,
+    "enrolled": 43,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -33262,8 +33289,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 58,
-    "enrolled": 56,
-    "seatsavail": 2,
+    "enrolled": 54,
+    "seatsavail": 4,
     "modality": "Virtual",
     "language": "Español",
     "department": "CBUT"
@@ -33526,8 +33553,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 80,
-    "enrolled": 80,
-    "seatsavail": 0,
+    "enrolled": 79,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CBUT"
@@ -33659,7 +33686,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "CELEMIN CAICEDO YENNY ANDREA",
+    "professors": "GOMEZ GAVIRIA HERNANDO ENRIQUE DANIEL, CELEMIN CAICEDO YENNY ANDREA",
     "schedules": [
       {
         "day": "L",
@@ -33698,7 +33725,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "LOPEZ STERUP HENRIK ",
+    "professors": "VALLEJO GONZALEZ HERNAN EDUARDO, LOPEZ STERUP HENRIK ",
     "schedules": [
       {
         "day": "M",
@@ -33721,8 +33748,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 120,
-    "enrolled": 118,
-    "seatsavail": 2,
+    "enrolled": 117,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCDE"
@@ -33737,7 +33764,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "REY VALLEJO ALFREDO PABLO",
+    "professors": "REY VALLEJO ALFREDO PABLO, BONILLA LONDOÑO JORGE ALEXANDER",
     "schedules": [
       {
         "day": "M",
@@ -33776,7 +33803,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "CASTRELLON PEREZ MARIANA ",
+    "professors": "ALVAREZ GALLO CARLOS ANDRES, CASTRELLON PEREZ MARIANA ",
     "schedules": [
       {
         "day": "M",
@@ -33815,7 +33842,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "VELEZ NAVARRO JOAQUIN ",
+    "professors": "BONILLA LONDOÑO JORGE ALEXANDER, VELEZ NAVARRO JOAQUIN ",
     "schedules": [
       {
         "day": "L",
@@ -33854,7 +33881,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "AMAYA CASTRO JUAN MANUEL",
+    "professors": "GONZALEZ ARBELAEZ ANGELA MARIA, AMAYA CASTRO JUAN MANUEL",
     "schedules": [
       {
         "day": "M",
@@ -33893,7 +33920,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "LOPEZ MEDINA DIEGO EDUARDO PABLO",
+    "professors": "LOPEZ MEDINA DIEGO EDUARDO PABLO, CASTRO RODRIGUEZ RAUL ",
     "schedules": [
       {
         "day": "L",
@@ -33932,7 +33959,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "RAMIREZ BUSTAMANTE NATALIA ",
+    "professors": "RAMIREZ BUSTAMANTE NATALIA , ZULETA GONZALEZ HERNANDO ",
     "schedules": [
       {
         "day": "M",
@@ -33971,7 +33998,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "ORTEGA DIAZ JUAN FRANCISCO",
+    "professors": "URIBE CASTRO MATEO , ORTEGA DIAZ JUAN FRANCISCO",
     "schedules": [
       {
         "day": "L",
@@ -34010,7 +34037,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "ARIZA HIGUERA LIBARDO JOSE",
+    "professors": "ARIZA HIGUERA LIBARDO JOSE, MONTAÑO CORREA SEBASTIAN ",
     "schedules": [
       {
         "day": "L",
@@ -34033,8 +34060,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 120,
-    "enrolled": 117,
-    "seatsavail": 3,
+    "enrolled": 118,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCDE"
@@ -34049,7 +34076,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "RUEDA FONSECA MARIA DEL SOCORRO",
+    "professors": "RUEDA FONSECA MARIA DEL SOCORRO, GONZALEZ ARBELAEZ ANGELA MARIA",
     "schedules": [
       {
         "day": "L",
@@ -34072,8 +34099,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 115,
-    "enrolled": 110,
-    "seatsavail": 5,
+    "enrolled": 109,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCDE"
@@ -34088,7 +34115,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "MORENO VELASQUEZ CAROLINA ",
+    "professors": "VALLEJO GONZALEZ HERNAN EDUARDO, MORENO VELASQUEZ CAROLINA ",
     "schedules": [
       {
         "day": "M",
@@ -34127,7 +34154,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "PERAFAN LIEVANO BETSY YADIR",
+    "professors": "PERAFAN LIEVANO BETSY YADIR, URIBE CASTRO MATEO ",
     "schedules": [
       {
         "day": "L",
@@ -34150,8 +34177,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 115,
-    "enrolled": 61,
-    "seatsavail": 54,
+    "enrolled": 62,
+    "seatsavail": 53,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCDE"
@@ -34166,7 +34193,7 @@
     "course": "CCDE1101",
     "title": "CONSTITUCIÓN Y DEMOCRACIA",
     "credits": 3,
-    "professors": "CELEMIN CAICEDO YENNY ANDREA",
+    "professors": "MONTAÑO CORREA SEBASTIAN , CELEMIN CAICEDO YENNY ANDREA",
     "schedules": [
       {
         "day": "L",
@@ -34579,8 +34606,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 23,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCOM"
@@ -34618,8 +34645,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 23,
-    "seatsavail": 1,
+    "enrolled": 22,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCOM"
@@ -35533,8 +35560,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 24,
-    "seatsavail": 0,
+    "enrolled": 23,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCOM"
@@ -35611,8 +35638,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 23,
-    "seatsavail": 1,
+    "enrolled": 24,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCOM"
@@ -36898,8 +36925,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 23,
-    "seatsavail": 1,
+    "enrolled": 22,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCOM"
@@ -37171,8 +37198,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 21,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "CCOM"
@@ -37549,8 +37576,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 20,
-    "enrolled": 19,
-    "seatsavail": 1,
+    "enrolled": 18,
+    "seatsavail": 2,
     "modality": "Virtual",
     "language": "Español",
     "department": "CHNA"
@@ -37705,8 +37732,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 19,
-    "enrolled": 19,
-    "seatsavail": 0,
+    "enrolled": 18,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CHNA"
@@ -37753,8 +37780,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 20,
-    "seatsavail": 0,
+    "enrolled": 18,
+    "seatsavail": 2,
     "modality": "Virtual",
     "language": "Español",
     "department": "CHNA"
@@ -38788,8 +38815,8 @@
         "day": "J",
         "startTime": "10:00",
         "endTime": "12:50",
-        "building": "LL",
-        "room": "201",
+        "building": "C",
+        "room": "210",
         "dateIni": "2026-09-03 00:00:00",
         "dateFin": "2026-09-03 00:00:00"
       },
@@ -38815,8 +38842,8 @@
         "day": "J",
         "startTime": "10:00",
         "endTime": "12:50",
-        "building": "LL",
-        "room": "201",
+        "building": "C",
+        "room": "210",
         "dateIni": "2026-10-08 00:00:00",
         "dateFin": "2026-10-08 00:00:00"
       },
@@ -38833,8 +38860,8 @@
         "day": "J",
         "startTime": "10:00",
         "endTime": "12:50",
-        "building": "LL",
-        "room": "201",
+        "building": "C",
+        "room": "210",
         "dateIni": "2026-10-29 00:00:00",
         "dateFin": "2026-10-29 00:00:00"
       },
@@ -38851,8 +38878,8 @@
         "day": "J",
         "startTime": "10:00",
         "endTime": "12:50",
-        "building": "LL",
-        "room": "201",
+        "building": "C",
+        "room": "210",
         "dateIni": "2026-11-26 00:00:00",
         "dateFin": "2026-11-26 00:00:00"
       }
@@ -38970,8 +38997,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 30,
-    "enrolled": 18,
-    "seatsavail": 12,
+    "enrolled": 17,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "CIDE"
@@ -39000,8 +39027,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 30,
-    "enrolled": 30,
-    "seatsavail": 0,
+    "enrolled": 29,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CIDE"
@@ -39898,8 +39925,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 34,
-    "seatsavail": 16,
+    "enrolled": 33,
+    "seatsavail": 17,
     "modality": "Presencial",
     "language": "Español",
     "department": "CIDE"
@@ -40736,8 +40763,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 39,
-    "seatsavail": 11,
+    "enrolled": 40,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -40892,8 +40919,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 45,
-    "seatsavail": 5,
+    "enrolled": 44,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -40970,8 +40997,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 56,
-    "enrolled": 53,
-    "seatsavail": 3,
+    "enrolled": 52,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -41009,8 +41036,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 52,
-    "enrolled": 51,
-    "seatsavail": 1,
+    "enrolled": 49,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -41321,8 +41348,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 35,
-    "seatsavail": 10,
+    "enrolled": 34,
+    "seatsavail": 11,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -41360,8 +41387,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 10,
-    "seatsavail": 15,
+    "enrolled": 9,
+    "seatsavail": 16,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -42353,8 +42380,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 27,
-    "enrolled": 27,
-    "seatsavail": 0,
+    "enrolled": 26,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -42848,8 +42875,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 22,
-    "enrolled": 20,
-    "seatsavail": 2,
+    "enrolled": 19,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -43184,8 +43211,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 10,
-    "seatsavail": 15,
+    "enrolled": 9,
+    "seatsavail": 16,
     "modality": "Virtual",
     "language": "Español",
     "department": "CISO"
@@ -43214,8 +43241,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 26,
-    "seatsavail": -1,
+    "enrolled": 25,
+    "seatsavail": 0,
     "modality": "Virtual",
     "language": "Español",
     "department": "CISO"
@@ -43379,8 +43406,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 54,
-    "enrolled": 54,
-    "seatsavail": 0,
+    "enrolled": 52,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "CISO"
@@ -44997,8 +45024,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 20,
-    "seatsavail": 15,
+    "enrolled": 21,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "CPOL"
@@ -45036,8 +45063,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 20,
-    "seatsavail": 30,
+    "enrolled": 21,
+    "seatsavail": 29,
     "modality": "Presencial",
     "language": "Español",
     "department": "CPOL"
@@ -45153,8 +45180,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 28,
-    "seatsavail": 22,
+    "enrolled": 26,
+    "seatsavail": 24,
     "modality": "Presencial",
     "language": "Español",
     "department": "CPOL"
@@ -45192,8 +45219,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 34,
-    "seatsavail": 16,
+    "enrolled": 33,
+    "seatsavail": 17,
     "modality": "Presencial",
     "language": "Español",
     "department": "CPOL"
@@ -45309,8 +45336,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 55,
-    "enrolled": 51,
-    "seatsavail": 4,
+    "enrolled": 52,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "CPOL"
@@ -45468,8 +45495,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 13,
-    "seatsavail": 7,
+    "enrolled": 14,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "CPOL"
@@ -47096,8 +47123,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 48,
-    "seatsavail": 1,
+    "enrolled": 49,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DATA"
@@ -47156,8 +47183,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 49,
-    "enrolled": 48,
-    "seatsavail": 1,
+    "enrolled": 49,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DATA"
@@ -47624,8 +47651,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 20,
-    "seatsavail": 0,
+    "enrolled": 19,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -48638,8 +48665,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 20,
-    "seatsavail": 5,
+    "enrolled": 19,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -48677,8 +48704,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 25,
-    "seatsavail": 0,
+    "enrolled": 24,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -48989,8 +49016,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 36,
-    "seatsavail": -1,
+    "enrolled": 35,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -49262,8 +49289,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 33,
-    "seatsavail": 2,
+    "enrolled": 32,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -49340,8 +49367,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 22,
-    "seatsavail": 13,
+    "enrolled": 21,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -49401,8 +49428,8 @@
         "day": "L",
         "startTime": "11:00",
         "endTime": "12:20",
-        "building": "W",
-        "room": "401",
+        "building": "G",
+        "room": "101",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -50750,8 +50777,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 23,
-    "enrolled": 23,
-    "seatsavail": 0,
+    "enrolled": 22,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -51197,8 +51224,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 40,
-    "seatsavail": 0,
+    "enrolled": 39,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DCHO"
@@ -54666,8 +54693,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 19,
-    "seatsavail": 9,
+    "enrolled": 18,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "DECA"
@@ -54696,8 +54723,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 14,
-    "seatsavail": 14,
+    "enrolled": 12,
+    "seatsavail": 16,
     "modality": "Presencial",
     "language": "Español",
     "department": "DECA"
@@ -54726,8 +54753,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 13,
-    "seatsavail": 15,
+    "enrolled": 12,
+    "seatsavail": 16,
     "modality": "Presencial",
     "language": "Español",
     "department": "DECA"
@@ -54816,8 +54843,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 15,
-    "seatsavail": 13,
+    "enrolled": 13,
+    "seatsavail": 15,
     "modality": "Presencial",
     "language": "Español",
     "department": "DECA"
@@ -54846,8 +54873,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 15,
-    "seatsavail": 13,
+    "enrolled": 14,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "DECA"
@@ -54936,8 +54963,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 24,
-    "seatsavail": 4,
+    "enrolled": 23,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DECA"
@@ -55026,8 +55053,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 22,
-    "seatsavail": 6,
+    "enrolled": 21,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "DECA"
@@ -55925,8 +55952,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 26,
-    "seatsavail": 4,
+    "enrolled": 25,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEIN"
@@ -55975,8 +56002,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 27,
-    "seatsavail": 3,
+    "enrolled": 26,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEIN"
@@ -56005,8 +56032,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 26,
-    "seatsavail": 4,
+    "enrolled": 25,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEIN"
@@ -57489,8 +57516,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 27,
-    "seatsavail": 3,
+    "enrolled": 26,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPI"
@@ -57519,8 +57546,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 25,
-    "seatsavail": -5,
+    "enrolled": 24,
+    "seatsavail": -4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -57639,8 +57666,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 63,
-    "seatsavail": -3,
+    "enrolled": 62,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -57669,8 +57696,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 52,
-    "seatsavail": -2,
+    "enrolled": 48,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -57699,8 +57726,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 61,
-    "seatsavail": -1,
+    "enrolled": 60,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -57819,8 +57846,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 33,
-    "seatsavail": -3,
+    "enrolled": 31,
+    "seatsavail": -1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -57879,8 +57906,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 58,
-    "seatsavail": 2,
+    "enrolled": 56,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -57909,8 +57936,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 49,
-    "seatsavail": 1,
+    "enrolled": 47,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -57999,8 +58026,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 15,
-    "seatsavail": 35,
+    "enrolled": 14,
+    "seatsavail": 36,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58059,8 +58086,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 20,
-    "seatsavail": -8,
+    "enrolled": 19,
+    "seatsavail": -7,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58149,8 +58176,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 16,
-    "seatsavail": -4,
+    "enrolled": 15,
+    "seatsavail": -3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58209,8 +58236,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 16,
-    "seatsavail": -4,
+    "enrolled": 15,
+    "seatsavail": -3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58239,8 +58266,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 20,
-    "seatsavail": -5,
+    "enrolled": 18,
+    "seatsavail": -3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58269,8 +58296,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 16,
-    "seatsavail": -4,
+    "enrolled": 15,
+    "seatsavail": -3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58299,8 +58326,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 15,
-    "seatsavail": -3,
+    "enrolled": 13,
+    "seatsavail": -1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58329,8 +58356,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 18,
-    "seatsavail": -6,
+    "enrolled": 17,
+    "seatsavail": -5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58389,8 +58416,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 17,
-    "seatsavail": -5,
+    "enrolled": 16,
+    "seatsavail": -4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58419,8 +58446,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 13,
-    "seatsavail": 3,
+    "enrolled": 12,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58479,8 +58506,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 14,
-    "seatsavail": 2,
+    "enrolled": 12,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58629,8 +58656,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 16,
-    "seatsavail": 0,
+    "enrolled": 14,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58659,8 +58686,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 17,
-    "seatsavail": -1,
+    "enrolled": 15,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58719,8 +58746,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 64,
-    "seatsavail": -4,
+    "enrolled": 62,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58749,8 +58776,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 29,
-    "seatsavail": 1,
+    "enrolled": 30,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58779,8 +58806,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 30,
-    "seatsavail": 0,
+    "enrolled": 29,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58809,8 +58836,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 28,
-    "seatsavail": 2,
+    "enrolled": 24,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58899,8 +58926,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 40,
-    "seatsavail": 8,
+    "enrolled": 37,
+    "seatsavail": 11,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58929,8 +58956,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 19,
-    "seatsavail": 1,
+    "enrolled": 18,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -58959,8 +58986,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 29,
-    "seatsavail": -9,
+    "enrolled": 27,
+    "seatsavail": -7,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59019,8 +59046,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 27,
-    "seatsavail": -7,
+    "enrolled": 26,
+    "seatsavail": -6,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59049,8 +59076,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 33,
-    "seatsavail": 2,
+    "enrolled": 25,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59109,8 +59136,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 50,
-    "seatsavail": 10,
+    "enrolled": 48,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59139,8 +59166,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 48,
-    "seatsavail": 12,
+    "enrolled": 47,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59169,8 +59196,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 63,
-    "seatsavail": -13,
+    "enrolled": 61,
+    "seatsavail": -11,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59199,8 +59226,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 76,
-    "seatsavail": -26,
+    "enrolled": 72,
+    "seatsavail": -22,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59337,8 +59364,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 51,
-    "seatsavail": -1,
+    "enrolled": 50,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59367,8 +59394,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 71,
-    "seatsavail": -21,
+    "enrolled": 70,
+    "seatsavail": -20,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59426,9 +59453,9 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 12,
-    "enrolled": 19,
-    "seatsavail": -7,
+    "maxenrol": 19,
+    "enrolled": 18,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59457,8 +59484,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 12,
-    "enrolled": 16,
-    "seatsavail": -4,
+    "enrolled": 14,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59487,8 +59514,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 39,
-    "seatsavail": 1,
+    "enrolled": 38,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59517,8 +59544,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 43,
-    "seatsavail": -3,
+    "enrolled": 42,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59607,8 +59634,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 41,
-    "seatsavail": -6,
+    "enrolled": 40,
+    "seatsavail": -5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59667,8 +59694,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 39,
-    "seatsavail": -4,
+    "enrolled": 38,
+    "seatsavail": -3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59727,8 +59754,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 19,
-    "seatsavail": 29,
+    "enrolled": 17,
+    "seatsavail": 31,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59757,8 +59784,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 28,
-    "seatsavail": 22,
+    "enrolled": 26,
+    "seatsavail": 24,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59787,8 +59814,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 32,
-    "seatsavail": 16,
+    "enrolled": 30,
+    "seatsavail": 18,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59907,8 +59934,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 19,
-    "seatsavail": -4,
+    "enrolled": 18,
+    "seatsavail": -3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -59937,8 +59964,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 21,
-    "seatsavail": 14,
+    "enrolled": 20,
+    "seatsavail": 15,
     "modality": "Virtual",
     "language": "Español",
     "department": "DEPO"
@@ -59967,8 +59994,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 19,
-    "seatsavail": 11,
+    "enrolled": 18,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60117,8 +60144,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 16,
-    "seatsavail": 0,
+    "enrolled": 15,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60147,8 +60174,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 22,
-    "seatsavail": 18,
+    "enrolled": 21,
+    "seatsavail": 19,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60237,8 +60264,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 13,
-    "seatsavail": 22,
+    "enrolled": 12,
+    "seatsavail": 23,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60267,8 +60294,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 58,
-    "seatsavail": -10,
+    "enrolled": 56,
+    "seatsavail": -8,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60297,8 +60324,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 59,
-    "seatsavail": -11,
+    "enrolled": 55,
+    "seatsavail": -7,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60327,8 +60354,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 50,
-    "seatsavail": -2,
+    "enrolled": 47,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60417,8 +60444,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 62,
-    "seatsavail": -2,
+    "enrolled": 60,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60447,8 +60474,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 34,
-    "seatsavail": 16,
+    "enrolled": 29,
+    "seatsavail": 21,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60477,8 +60504,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 58,
-    "seatsavail": 2,
+    "enrolled": 57,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60507,8 +60534,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 50,
-    "seatsavail": 0,
+    "enrolled": 47,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60567,8 +60594,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 38,
-    "seatsavail": -3,
+    "enrolled": 36,
+    "seatsavail": -1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60636,8 +60663,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 27,
-    "seatsavail": 8,
+    "enrolled": 26,
+    "seatsavail": 9,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60696,8 +60723,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 10,
-    "enrolled": 14,
-    "seatsavail": -4,
+    "enrolled": 13,
+    "seatsavail": -3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60756,8 +60783,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 15,
-    "seatsavail": 0,
+    "enrolled": 20,
+    "seatsavail": -5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -60786,8 +60813,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 12,
-    "seatsavail": 3,
+    "enrolled": 11,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -61185,8 +61212,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 32,
-    "seatsavail": 13,
+    "enrolled": 31,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -61740,8 +61767,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 32,
-    "seatsavail": -10,
+    "enrolled": 31,
+    "seatsavail": -9,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -61800,8 +61827,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 33,
-    "seatsavail": -11,
+    "enrolled": 32,
+    "seatsavail": -10,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -61830,8 +61857,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 31,
-    "seatsavail": -9,
+    "enrolled": 30,
+    "seatsavail": -8,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPO"
@@ -62303,8 +62330,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 25,
-    "seatsavail": 5,
+    "enrolled": 24,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "DEPR"
@@ -62812,8 +62839,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 36,
-    "seatsavail": -1,
+    "enrolled": 35,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -63007,8 +63034,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 22,
-    "seatsavail": 13,
+    "enrolled": 21,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -63124,8 +63151,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 29,
-    "seatsavail": 6,
+    "enrolled": 28,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -63553,8 +63580,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 34,
-    "seatsavail": 1,
+    "enrolled": 33,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -63709,8 +63736,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 35,
-    "seatsavail": 0,
+    "enrolled": 34,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -63779,8 +63806,8 @@
         "day": "V",
         "startTime": "15:30",
         "endTime": "16:50",
-        "building": "S1",
-        "room": "003",
+        "building": "AU",
+        "room": "102",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -64081,8 +64108,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 42,
-    "seatsavail": 3,
+    "enrolled": 41,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -64120,8 +64147,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 36,
-    "seatsavail": 9,
+    "enrolled": 35,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -64267,8 +64294,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 10,
-    "enrolled": 2,
-    "seatsavail": 8,
+    "enrolled": 1,
+    "seatsavail": 9,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -64774,8 +64801,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 43,
-    "seatsavail": 2,
+    "enrolled": 42,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -65855,8 +65882,8 @@
     "schedules": [],
     "campus": "NO DEFINIDO",
     "maxenrol": 60,
-    "enrolled": 28,
-    "seatsavail": 32,
+    "enrolled": 29,
+    "seatsavail": 31,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -65951,7 +65978,7 @@
     "course": "DERE3837",
     "title": "CJ MEDIO AMBIENTE SALUD PUBLICA",
     "credits": 0,
-    "professors": "OLARTE OLARTE MARIA CAROLINA",
+    "professors": "JARAMILLO VARGAS DIEGO ANDRES",
     "schedules": [
       {
         "day": "I",
@@ -66122,8 +66149,8 @@
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 220,
-    "enrolled": 162,
-    "seatsavail": 58,
+    "enrolled": 163,
+    "seatsavail": 57,
     "modality": "Presencial",
     "language": "Español",
     "department": "DERE"
@@ -66671,8 +66698,8 @@
     "schedules": [
       {
         "day": "J",
-        "startTime": "17:00",
-        "endTime": "18:20",
+        "startTime": "16:00",
+        "endTime": "17:20",
         "building": "C",
         "room": "701",
         "dateIni": "2026-08-03 00:00:00",
@@ -66680,8 +66707,8 @@
       },
       {
         "day": "J",
-        "startTime": "17:00",
-        "endTime": "18:20",
+        "startTime": "16:00",
+        "endTime": "17:20",
         "building": "S1",
         "room": "201",
         "dateIni": "2026-09-28 00:00:00",
@@ -66689,8 +66716,8 @@
       },
       {
         "day": "J",
-        "startTime": "17:00",
-        "endTime": "18:20",
+        "startTime": "16:00",
+        "endTime": "17:20",
         "building": "C",
         "room": "701",
         "dateIni": "2026-10-12 00:00:00",
@@ -67937,8 +67964,17 @@
         "endTime": "12:50",
         "building": "NOREQ",
         "room": "",
-        "dateIni": "2026-09-12 00:00:00",
-        "dateFin": "2026-09-12 00:00:00"
+        "dateIni": "2026-09-19 00:00:00",
+        "dateFin": "2026-09-19 00:00:00"
+      },
+      {
+        "day": "S",
+        "startTime": "11:00",
+        "endTime": "12:50",
+        "building": "NOREQ",
+        "room": "",
+        "dateIni": "2026-10-10 00:00:00",
+        "dateFin": "2026-10-10 00:00:00"
       }
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
@@ -68021,8 +68057,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 33,
-    "seatsavail": 3,
+    "enrolled": 32,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -68060,8 +68096,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 35,
-    "seatsavail": 1,
+    "enrolled": 34,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -68138,8 +68174,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 31,
-    "seatsavail": 5,
+    "enrolled": 30,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -68177,8 +68213,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 24,
-    "seatsavail": 12,
+    "enrolled": 23,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -68317,7 +68353,7 @@
         "startTime": "09:00",
         "endTime": "10:50",
         "building": "C",
-        "room": "401-2",
+        "room": "403-4",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-09-26 00:00:00"
       },
@@ -68326,7 +68362,7 @@
         "startTime": "09:00",
         "endTime": "10:50",
         "building": "C",
-        "room": "401-2",
+        "room": "403-4",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-09-26 00:00:00"
       }
@@ -68606,8 +68642,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 18,
-    "enrolled": 13,
-    "seatsavail": 5,
+    "enrolled": 12,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -69512,8 +69548,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 20,
-    "seatsavail": 4,
+    "enrolled": 19,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -70052,8 +70088,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 23,
-    "seatsavail": 1,
+    "enrolled": 24,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -70262,8 +70298,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 24,
-    "seatsavail": 0,
+    "enrolled": 23,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -70441,7 +70477,7 @@
         "startTime": "07:00",
         "endTime": "08:50",
         "building": "C",
-        "room": "401-2",
+        "room": "403-4",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-09-26 00:00:00"
       },
@@ -70450,15 +70486,15 @@
         "startTime": "07:00",
         "endTime": "08:50",
         "building": "C",
-        "room": "401-2",
+        "room": "403-4",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-09-26 00:00:00"
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 35,
-    "seatsavail": 1,
+    "enrolled": 36,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -70574,8 +70610,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 36,
-    "seatsavail": 0,
+    "enrolled": 35,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -70652,8 +70688,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 35,
-    "seatsavail": 1,
+    "enrolled": 36,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -71042,8 +71078,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 36,
-    "seatsavail": 0,
+    "enrolled": 37,
+    "seatsavail": -1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -71315,8 +71351,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 70,
-    "enrolled": 63,
-    "seatsavail": 7,
+    "enrolled": 62,
+    "seatsavail": 8,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -71354,8 +71390,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 35,
-    "seatsavail": 1,
+    "enrolled": 36,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -71454,8 +71490,8 @@
         "day": "M",
         "startTime": "07:00",
         "endTime": "08:50",
-        "building": "O",
-        "room": "205",
+        "building": "M",
+        "room": "100",
         "dateIni": "2026-10-05 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -71463,8 +71499,8 @@
         "day": "J",
         "startTime": "07:00",
         "endTime": "08:50",
-        "building": "O",
-        "room": "205",
+        "building": "R",
+        "room": "113",
         "dateIni": "2026-10-05 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -71825,8 +71861,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 23,
+    "seatsavail": 1,
     "modality": "Virtual",
     "language": "Español",
     "department": "DISO"
@@ -72323,8 +72359,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 26,
-    "seatsavail": -2,
+    "enrolled": 25,
+    "seatsavail": -1,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -72383,8 +72419,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 18,
-    "seatsavail": 6,
+    "enrolled": 17,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -72443,8 +72479,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 19,
-    "seatsavail": 5,
+    "enrolled": 18,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -72962,8 +72998,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 39,
-    "seatsavail": -3,
+    "enrolled": 38,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -72992,8 +73028,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 36,
-    "seatsavail": 0,
+    "enrolled": 34,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -73669,8 +73705,8 @@
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 2,
-    "enrolled": 1,
-    "seatsavail": 1,
+    "enrolled": 0,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -74578,8 +74614,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 155,
-    "enrolled": 151,
-    "seatsavail": 4,
+    "enrolled": 150,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -75090,7 +75126,7 @@
         "startTime": "08:00",
         "endTime": "10:50",
         "building": "C",
-        "room": "403-4",
+        "room": "401-2",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -75136,8 +75172,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 49,
-    "seatsavail": -1,
+    "enrolled": 48,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -75484,8 +75520,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 12,
-    "seatsavail": 12,
+    "enrolled": 11,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -76012,8 +76048,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 21,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "DISO"
@@ -76065,7 +76101,7 @@
         "startTime": "08:00",
         "endTime": "10:50",
         "building": "C",
-        "room": "403-4",
+        "room": "401-2",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -76992,8 +77028,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 14,
-    "seatsavail": 16,
+    "enrolled": 13,
+    "seatsavail": 17,
     "modality": "Presencial",
     "language": "Español",
     "department": "DPRO"
@@ -77354,8 +77390,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 19,
-    "seatsavail": 26,
+    "enrolled": 20,
+    "seatsavail": 25,
     "modality": "Presencial",
     "language": "Español",
     "department": "DPUB"
@@ -77384,8 +77420,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 16,
-    "seatsavail": 24,
+    "enrolled": 17,
+    "seatsavail": 23,
     "modality": "Presencial",
     "language": "Español",
     "department": "DPUB"
@@ -77434,8 +77470,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 16,
-    "seatsavail": 14,
+    "enrolled": 17,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "DPUB"
@@ -77761,8 +77797,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 65,
-    "seatsavail": 5,
+    "enrolled": 66,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -77851,8 +77887,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 32,
-    "seatsavail": 3,
+    "enrolled": 33,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78040,8 +78076,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 43,
-    "enrolled": 41,
-    "seatsavail": 2,
+    "enrolled": 42,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78079,8 +78115,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 43,
-    "enrolled": 41,
-    "seatsavail": 2,
+    "enrolled": 42,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78196,8 +78232,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 42,
-    "enrolled": 39,
-    "seatsavail": 3,
+    "enrolled": 38,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78355,8 +78391,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 26,
-    "seatsavail": 4,
+    "enrolled": 27,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78385,8 +78421,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 29,
-    "seatsavail": 1,
+    "enrolled": 28,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78475,8 +78511,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 26,
-    "seatsavail": 4,
+    "enrolled": 27,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78535,8 +78571,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 25,
-    "seatsavail": 1,
+    "enrolled": 24,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78565,8 +78601,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 24,
-    "seatsavail": 2,
+    "enrolled": 23,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78625,8 +78661,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 29,
-    "enrolled": 28,
-    "seatsavail": 1,
+    "enrolled": 27,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78805,8 +78841,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 14,
-    "seatsavail": 10,
+    "enrolled": 13,
+    "seatsavail": 11,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -78955,8 +78991,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 26,
-    "seatsavail": 0,
+    "enrolled": 25,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -79024,8 +79060,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 80,
-    "enrolled": 79,
-    "seatsavail": 1,
+    "enrolled": 80,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -79063,8 +79099,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 80,
-    "enrolled": 79,
-    "seatsavail": 1,
+    "enrolled": 80,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -79231,8 +79267,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 27,
-    "seatsavail": 1,
+    "enrolled": 28,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -79261,8 +79297,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 27,
-    "seatsavail": 1,
+    "enrolled": 28,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -79744,8 +79780,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 64,
-    "enrolled": 45,
-    "seatsavail": 19,
+    "enrolled": 46,
+    "seatsavail": 18,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -79942,8 +79978,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 19,
-    "seatsavail": 13,
+    "enrolled": 20,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -80455,8 +80491,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 80,
-    "enrolled": 61,
-    "seatsavail": 19,
+    "enrolled": 60,
+    "seatsavail": 20,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -80494,8 +80530,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 80,
-    "enrolled": 75,
-    "seatsavail": 5,
+    "enrolled": 76,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -80944,8 +80980,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 8,
-    "seatsavail": 18,
+    "enrolled": 7,
+    "seatsavail": 19,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -81004,8 +81040,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 27,
-    "enrolled": 24,
-    "seatsavail": 3,
+    "enrolled": 25,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -81547,8 +81583,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 62,
-    "enrolled": 59,
-    "seatsavail": 3,
+    "enrolled": 60,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -81637,8 +81673,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 31,
-    "enrolled": 29,
-    "seatsavail": 2,
+    "enrolled": 30,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -81745,8 +81781,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 23,
-    "seatsavail": 3,
+    "enrolled": 25,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -83248,8 +83284,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 64,
-    "enrolled": 63,
-    "seatsavail": 1,
+    "enrolled": 64,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -83317,8 +83353,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 29,
-    "enrolled": 28,
-    "seatsavail": 1,
+    "enrolled": 29,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -83639,7 +83675,7 @@
     "course": "ECON3213C",
     "title": "COMPLEMENTARIA MACROECONOMÍA 3 CON TALLER",
     "credits": 0,
-    "professors": "",
+    "professors": "LOZANO NIÑO JUAN MANUEL",
     "schedules": [
       {
         "day": "V",
@@ -83722,8 +83758,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 63,
-    "enrolled": 60,
-    "seatsavail": 3,
+    "enrolled": 62,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -83791,8 +83827,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 28,
-    "seatsavail": 2,
+    "enrolled": 29,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -83821,8 +83857,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 31,
-    "seatsavail": 1,
+    "enrolled": 32,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -84278,8 +84314,8 @@
         "day": "L",
         "startTime": "11:00",
         "endTime": "12:20",
-        "building": "M",
-        "room": "100",
+        "building": "ML",
+        "room": "606",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -84394,8 +84430,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 65,
-    "enrolled": 60,
-    "seatsavail": 5,
+    "enrolled": 61,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -84433,8 +84469,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 57,
-    "seatsavail": 3,
+    "enrolled": 58,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -84463,8 +84499,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 29,
-    "seatsavail": 1,
+    "enrolled": 30,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -84523,8 +84559,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 33,
-    "enrolled": 25,
-    "seatsavail": 8,
+    "enrolled": 26,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -84614,8 +84650,8 @@
         "day": "L",
         "startTime": "11:00",
         "endTime": "12:20",
-        "building": "M",
-        "room": "100",
+        "building": "ML",
+        "room": "606",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -84984,8 +85020,8 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 24,
-    "enrolled": 24,
+    "maxenrol": 25,
+    "enrolled": 25,
     "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
@@ -85365,8 +85401,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 34,
-    "seatsavail": 1,
+    "enrolled": 33,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -85495,7 +85531,7 @@
         "building": "ML",
         "room": "516",
         "dateIni": "2026-08-14 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "V",
@@ -85504,6 +85540,24 @@
         "building": "ML",
         "room": "516",
         "dateIni": "2026-08-14 00:00:00",
+        "dateFin": "2026-08-23 00:00:00"
+      },
+      {
+        "day": "I",
+        "startTime": "08:00",
+        "endTime": "09:20",
+        "building": "AU",
+        "room": "304",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "V",
+        "startTime": "08:00",
+        "endTime": "09:20",
+        "building": "AU",
+        "room": "204",
+        "dateIni": "2026-08-24 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
@@ -85726,8 +85780,8 @@
         "day": "I",
         "startTime": "16:00",
         "endTime": "18:50",
-        "building": "RGD",
-        "room": "308-9",
+        "building": "W",
+        "room": "101",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -85851,8 +85905,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 31,
-    "seatsavail": 5,
+    "enrolled": 29,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -86321,7 +86375,7 @@
     "course": "ECON4568C",
     "title": "COMPLEMENTARIA MICROECONOMIA III",
     "credits": 0,
-    "professors": "",
+    "professors": "AREVALO LEON JUAN CAMILO",
     "schedules": [
       {
         "day": "V",
@@ -86557,7 +86611,7 @@
     "course": "ECON4659C",
     "title": "COMPLEMENTARIA DE TEORIA DE JUEGOS",
     "credits": 0,
-    "professors": "",
+    "professors": "CASTILLO ALVAREZ GUSTAVO ADOLFO",
     "schedules": [
       {
         "day": "V",
@@ -86601,8 +86655,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 35,
-    "enrolled": 22,
-    "seatsavail": 13,
+    "enrolled": 21,
+    "seatsavail": 14,
     "modality": "Virtual",
     "language": "Español",
     "department": "ECON"
@@ -86631,8 +86685,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 35,
-    "enrolled": 22,
-    "seatsavail": 13,
+    "enrolled": 21,
+    "seatsavail": 14,
     "modality": "Virtual",
     "language": "Español",
     "department": "ECON"
@@ -86661,8 +86715,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 11,
-    "seatsavail": 9,
+    "enrolled": 10,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -86691,8 +86745,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 11,
-    "seatsavail": 9,
+    "enrolled": 10,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "ECON"
@@ -87580,8 +87634,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 50,
-    "seatsavail": 10,
+    "enrolled": 49,
+    "seatsavail": 11,
     "modality": "Presencial",
     "language": "Español",
     "department": "EDUC"
@@ -87726,6 +87780,15 @@
         "room": "306-7",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "J",
+        "startTime": "18:30",
+        "endTime": "19:50",
+        "building": "RGD",
+        "room": "308-9",
+        "dateIni": "2026-08-17 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
@@ -87752,8 +87815,8 @@
         "day": "M",
         "startTime": "14:00",
         "endTime": "16:50",
-        "building": "RGD",
-        "room": "001",
+        "building": "SD",
+        "room": "201-2",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -87782,8 +87845,8 @@
         "day": "M",
         "startTime": "14:00",
         "endTime": "16:50",
-        "building": "SD",
-        "room": "201-2",
+        "building": "RGD",
+        "room": "001",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -88142,16 +88205,16 @@
         "day": "S",
         "startTime": "10:00",
         "endTime": "12:50",
-        "building": "B",
-        "room": "401",
+        "building": "LL",
+        "room": "204",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 41,
-    "enrolled": 38,
-    "seatsavail": 3,
+    "enrolled": 37,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "EDUC"
@@ -90188,8 +90251,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 19,
-    "enrolled": 20,
-    "seatsavail": -1,
+    "enrolled": 19,
+    "seatsavail": 0,
     "modality": "Virtual",
     "language": "Español",
     "department": "EECO"
@@ -90210,17 +90273,17 @@
         "day": "S",
         "startTime": "08:00",
         "endTime": "09:20",
-        "building": "LL",
-        "room": "204",
+        "building": "NOREQ",
+        "room": "",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
-    "campus": "CAMPUS PRINCIPAL",
+    "campus": "VIRTUAL",
     "maxenrol": 19,
-    "enrolled": 20,
-    "seatsavail": -1,
-    "modality": "Presencial",
+    "enrolled": 19,
+    "seatsavail": 0,
+    "modality": "Virtual",
     "language": "Español",
     "department": "EECO"
   },
@@ -90620,8 +90683,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 27,
-    "seatsavail": 13,
+    "enrolled": 28,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "EGOB"
@@ -93400,7 +93463,7 @@
     "course": "EMBA4504",
     "title": "INTER 3: ORGANIZACIONES EFECTIVAS: ESTRATEGIA EN EQUIPO Y CON RESULTADOS",
     "credits": 2,
-    "professors": "PARDO ARAGON OSCAR ARMANDO",
+    "professors": "AZUERO ISAZA MARCO ANTONIO, PARDO ARAGON OSCAR ARMANDO",
     "schedules": [
       {
         "day": "V",
@@ -94696,8 +94759,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 24,
-    "seatsavail": -9,
+    "enrolled": 20,
+    "seatsavail": -5,
     "modality": "Presencial",
     "language": "Español",
     "department": "EPID"
@@ -96205,8 +96268,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 26,
-    "seatsavail": 0,
+    "enrolled": 25,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ESCR"
@@ -96361,8 +96424,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 26,
-    "seatsavail": 0,
+    "enrolled": 25,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ESCR"
@@ -96673,8 +96736,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 16,
-    "seatsavail": -1,
+    "enrolled": 15,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "FARH"
@@ -96820,8 +96883,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 90,
-    "enrolled": 60,
-    "seatsavail": 30,
+    "enrolled": 59,
+    "seatsavail": 31,
     "modality": "Presencial",
     "language": "Español",
     "department": "FCIE"
@@ -97017,8 +97080,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 8,
-    "seatsavail": 7,
+    "enrolled": 7,
+    "seatsavail": 8,
     "modality": "Presencial",
     "language": "Español",
     "department": "FILO"
@@ -97056,8 +97119,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 16,
-    "seatsavail": 9,
+    "enrolled": 15,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "FILO"
@@ -97118,7 +97181,7 @@
         "startTime": "15:30",
         "endTime": "16:50",
         "building": "O",
-        "room": "302",
+        "room": "203",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -97127,7 +97190,7 @@
         "startTime": "15:30",
         "endTime": "16:50",
         "building": "O",
-        "room": "302",
+        "room": "203",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -97203,8 +97266,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 5,
-    "enrolled": 1,
-    "seatsavail": 4,
+    "enrolled": 0,
+    "seatsavail": 5,
     "modality": "Virtual",
     "language": "Español",
     "department": "FILO"
@@ -97484,7 +97547,7 @@
     "course": "FILO3993",
     "title": "PRACTICA OPCION DE GRADO",
     "credits": 4,
-    "professors": "",
+    "professors": "FERNANDEZ PINTO MANUELA ",
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 2,
@@ -97704,7 +97767,7 @@
     "course": "FILO6961",
     "title": "TUTORIAL DE PROYECTO 2",
     "credits": 2,
-    "professors": "",
+    "professors": "LEHNER SANCLEMENTE ANDREA ",
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 1,
@@ -97744,7 +97807,7 @@
     "course": "FILO6971",
     "title": "SUSTENTACIÓN DE PROYECTO",
     "credits": 8,
-    "professors": "",
+    "professors": "LEHNER SANCLEMENTE ANDREA ",
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 3,
@@ -97947,8 +98010,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 51,
-    "seatsavail": 19,
+    "enrolled": 52,
+    "seatsavail": 18,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98055,8 +98118,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 68,
-    "enrolled": 64,
-    "seatsavail": 4,
+    "enrolled": 65,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98094,8 +98157,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 68,
-    "enrolled": 64,
-    "seatsavail": 4,
+    "enrolled": 62,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98124,8 +98187,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 23,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98304,8 +98367,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 21,
-    "seatsavail": 1,
+    "enrolled": 19,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98424,8 +98487,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 21,
-    "seatsavail": -1,
+    "enrolled": 20,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98484,8 +98547,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 18,
-    "seatsavail": 2,
+    "enrolled": 17,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98913,8 +98976,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 37,
-    "seatsavail": 33,
+    "enrolled": 36,
+    "seatsavail": 34,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -98952,8 +99015,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 91,
-    "enrolled": 90,
-    "seatsavail": 1,
+    "enrolled": 91,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -99342,8 +99405,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 21,
-    "seatsavail": 1,
+    "enrolled": 22,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -102998,8 +103061,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 27,
-    "seatsavail": 8,
+    "enrolled": 26,
+    "seatsavail": 9,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -104369,9 +104432,9 @@
     "professors": "RAMIREZ ROJAS JUAN GABRIEL",
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 3,
-    "seatsavail": -3,
+    "maxenrol": 4,
+    "enrolled": 4,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "FISI"
@@ -104449,8 +104512,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 26,
-    "seatsavail": 44,
+    "enrolled": 25,
+    "seatsavail": 45,
     "modality": "Presencial",
     "language": "Español",
     "department": "GEOC"
@@ -104566,8 +104629,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 68,
-    "seatsavail": 2,
+    "enrolled": 69,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "GEOC"
@@ -104683,8 +104746,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 61,
-    "seatsavail": 9,
+    "enrolled": 60,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "GEOC"
@@ -104839,8 +104902,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 18,
-    "seatsavail": 12,
+    "enrolled": 16,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "GEOC"
@@ -105188,7 +105251,7 @@
     "course": "GEOC3090",
     "title": "PROPUESTA OPCIÓN DE GRADO",
     "credits": 0,
-    "professors": "",
+    "professors": "SIERRA ROJAS MARIA ISABEL",
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 6,
@@ -107380,8 +107443,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 76,
-    "enrolled": 74,
-    "seatsavail": 2,
+    "enrolled": 73,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "GLOB"
@@ -107419,8 +107482,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 65,
-    "enrolled": 64,
-    "seatsavail": 1,
+    "enrolled": 65,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "GLOB"
@@ -107458,8 +107521,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 68,
-    "enrolled": 67,
-    "seatsavail": 1,
+    "enrolled": 66,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "GLOB"
@@ -108655,8 +108718,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 16,
-    "seatsavail": 0,
+    "enrolled": 15,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "HART"
@@ -108733,8 +108796,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 24,
-    "seatsavail": 6,
+    "enrolled": 23,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "HART"
@@ -108873,8 +108936,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 20,
-    "enrolled": 21,
-    "seatsavail": -1,
+    "enrolled": 20,
+    "seatsavail": 0,
     "modality": "Virtual",
     "language": "Español",
     "department": "HDIG"
@@ -110665,8 +110728,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 53,
-    "seatsavail": 7,
+    "enrolled": 54,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "IBIO"
@@ -110755,8 +110818,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 17,
-    "seatsavail": 3,
+    "enrolled": 18,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "IBIO"
@@ -111547,8 +111610,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 10,
-    "seatsavail": 20,
+    "enrolled": 9,
+    "seatsavail": 21,
     "modality": "Presencial",
     "language": "Español",
     "department": "IBIO"
@@ -111577,8 +111640,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 10,
-    "seatsavail": 20,
+    "enrolled": 9,
+    "seatsavail": 21,
     "modality": "Presencial",
     "language": "Español",
     "department": "IBIO"
@@ -115158,8 +115221,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 54,
-    "enrolled": 47,
-    "seatsavail": 7,
+    "enrolled": 48,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -115188,8 +115251,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 28,
-    "seatsavail": 2,
+    "enrolled": 29,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -115257,8 +115320,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 54,
-    "enrolled": 47,
-    "seatsavail": 7,
+    "enrolled": 48,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -115641,8 +115704,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 9,
-    "seatsavail": 11,
+    "enrolled": 10,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -115671,8 +115734,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 9,
-    "seatsavail": 11,
+    "enrolled": 10,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -115848,8 +115911,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 34,
-    "seatsavail": 6,
+    "enrolled": 36,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -117348,8 +117411,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 3,
-    "seatsavail": 12,
+    "enrolled": 2,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -118486,8 +118549,8 @@
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 17,
-    "seatsavail": 3,
+    "enrolled": 16,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -118951,8 +119014,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 11,
-    "seatsavail": 4,
+    "enrolled": 12,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -119098,8 +119161,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 10,
-    "seatsavail": 15,
+    "enrolled": 11,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -119314,8 +119377,8 @@
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 52,
-    "enrolled": 51,
-    "seatsavail": 1,
+    "enrolled": 50,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -119611,8 +119674,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 55,
-    "enrolled": 49,
-    "seatsavail": 6,
+    "enrolled": 48,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -119776,8 +119839,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 32,
-    "enrolled": 31,
-    "seatsavail": 1,
+    "enrolled": 30,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -120391,8 +120454,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 23,
-    "seatsavail": 7,
+    "enrolled": 22,
+    "seatsavail": 8,
     "modality": "Presencial",
     "language": "Español",
     "department": "ICYA"
@@ -121352,8 +121415,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 32,
-    "seatsavail": 0,
+    "enrolled": 31,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -121967,8 +122030,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 38,
-    "enrolled": 29,
-    "seatsavail": 9,
+    "enrolled": 28,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -121997,8 +122060,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 16,
-    "seatsavail": 0,
+    "enrolled": 15,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -122301,7 +122364,7 @@
     "course": "IELE2202L",
     "title": "LABORATORIO DISEÑO SISTEMAS DIGITALES",
     "credits": 0,
-    "professors": "",
+    "professors": "FERNANDEZ MIER MATEO DE JESUS",
     "schedules": [
       {
         "day": "L",
@@ -122887,7 +122950,7 @@
     "course": "IELE2500",
     "title": "CURSO DE SEÑALES",
     "credits": 3,
-    "professors": "LOZANO MARTINEZ FERNANDO ENRIQUE",
+    "professors": "LOZANO MARTINEZ FERNANDO ENRIQUE, LOZANO MARTINEZ FERNANDO ENRIQUE",
     "schedules": [
       {
         "day": "L",
@@ -122935,7 +122998,7 @@
     "course": "IELE2500",
     "title": "CURSO DE SEÑALES",
     "credits": 3,
-    "professors": "SALAZAR GOMEZ ANTONIO JOSE",
+    "professors": "SALAZAR GOMEZ ANTONIO JOSE, SALAZAR GOMEZ ANTONIO JOSE",
     "schedules": [
       {
         "day": "L",
@@ -123166,8 +123229,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 13,
-    "seatsavail": 19,
+    "enrolled": 12,
+    "seatsavail": 20,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -123256,8 +123319,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 13,
-    "seatsavail": 3,
+    "enrolled": 12,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -123272,7 +123335,7 @@
     "course": "IELE3018",
     "title": "PROYECTO DE INGENIERÍA",
     "credits": 3,
-    "professors": "",
+    "professors": "SEGURA QUIJANO FREDY ENRIQUE",
     "schedules": [
       {
         "day": "V",
@@ -123302,7 +123365,7 @@
     "course": "IELE3018",
     "title": "PROYECTO DE INGENIERÍA",
     "credits": 3,
-    "professors": "",
+    "professors": "AVILA BERNAL ALBA GRACIELA",
     "schedules": [
       {
         "day": "L",
@@ -123633,8 +123696,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 29,
-    "seatsavail": 11,
+    "enrolled": 28,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -123672,8 +123735,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 46,
-    "enrolled": 37,
-    "seatsavail": 9,
+    "enrolled": 36,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -123732,8 +123795,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 18,
-    "enrolled": 17,
-    "seatsavail": 1,
+    "enrolled": 16,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -123840,8 +123903,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 42,
-    "enrolled": 15,
-    "seatsavail": 27,
+    "enrolled": 14,
+    "seatsavail": 28,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -123900,8 +123963,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 18,
-    "enrolled": 6,
-    "seatsavail": 12,
+    "enrolled": 5,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -124146,8 +124209,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 29,
-    "seatsavail": 3,
+    "enrolled": 28,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -124224,8 +124287,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 23,
-    "seatsavail": 9,
+    "enrolled": 22,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -124539,8 +124602,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 16,
-    "seatsavail": 8,
+    "enrolled": 15,
+    "seatsavail": 9,
     "modality": "Presencial",
     "language": "Español",
     "department": "IELE"
@@ -124812,8 +124875,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 10,
-    "enrolled": 8,
-    "seatsavail": 2,
+    "enrolled": 7,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -125709,8 +125772,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 57,
-    "enrolled": 57,
-    "seatsavail": 0,
+    "enrolled": 56,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -125826,8 +125889,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 61,
-    "enrolled": 60,
-    "seatsavail": 1,
+    "enrolled": 61,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -126138,8 +126201,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 59,
-    "enrolled": 59,
-    "seatsavail": 0,
+    "enrolled": 58,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -126435,8 +126498,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 45,
-    "seatsavail": 0,
+    "enrolled": 44,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -127668,8 +127731,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 58,
-    "enrolled": 49,
-    "seatsavail": 9,
+    "enrolled": 47,
+    "seatsavail": 11,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -127746,8 +127809,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 50,
-    "seatsavail": 0,
+    "enrolled": 49,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -127902,8 +127965,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 58,
-    "enrolled": 57,
-    "seatsavail": 1,
+    "enrolled": 56,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -127971,8 +128034,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 40,
-    "seatsavail": 0,
+    "enrolled": 39,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -128077,7 +128140,7 @@
     "course": "IIND2206T",
     "title": "TRABAJO ASISTIDO INGENÍERIA DE CADENA DE SUMINISTRO",
     "credits": 0,
-    "professors": "MOYA PEREZ SALMA ELENA",
+    "professors": "CARDENAS PARRA ANA SOFIA",
     "schedules": [
       {
         "day": "V",
@@ -129039,8 +129102,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 52,
-    "enrolled": 50,
-    "seatsavail": 2,
+    "enrolled": 51,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -129504,8 +129567,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 39,
-    "enrolled": 38,
-    "seatsavail": 1,
+    "enrolled": 37,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -129642,8 +129705,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 19,
-    "seatsavail": 1,
+    "enrolled": 18,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -130178,8 +130241,8 @@
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 200,
-    "enrolled": 119,
-    "seatsavail": 81,
+    "enrolled": 121,
+    "seatsavail": 79,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -130217,8 +130280,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 13,
-    "seatsavail": 17,
+    "enrolled": 11,
+    "seatsavail": 19,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -130480,7 +130543,7 @@
     "course": "IIND3118T",
     "title": "TRAB. ASIST. INTRO MACH LEARN",
     "credits": 0,
-    "professors": "",
+    "professors": "LADINO NIETO ESTEBAN ",
     "schedules": [
       {
         "day": "L",
@@ -130650,8 +130713,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 37,
-    "enrolled": 37,
-    "seatsavail": 0,
+    "enrolled": 36,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -130728,8 +130791,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 18,
-    "seatsavail": 2,
+    "enrolled": 17,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -131409,8 +131472,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 42,
-    "enrolled": 43,
-    "seatsavail": -1,
+    "enrolled": 42,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -131448,8 +131511,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 38,
-    "enrolled": 23,
-    "seatsavail": 15,
+    "enrolled": 22,
+    "seatsavail": 16,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -131655,8 +131718,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 37,
-    "enrolled": 35,
-    "seatsavail": 2,
+    "enrolled": 34,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "IIND"
@@ -132462,8 +132525,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 12,
-    "seatsavail": 14,
+    "enrolled": 11,
+    "seatsavail": 15,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -132612,8 +132675,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 12,
-    "seatsavail": 18,
+    "enrolled": 11,
+    "seatsavail": 19,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -132858,8 +132921,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 26,
-    "seatsavail": 4,
+    "enrolled": 25,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -132897,8 +132960,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 32,
-    "seatsavail": 4,
+    "enrolled": 31,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -133074,8 +133137,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 64,
-    "enrolled": 62,
-    "seatsavail": 2,
+    "enrolled": 63,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -133173,8 +133236,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 20,
-    "seatsavail": 2,
+    "enrolled": 21,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -133271,8 +133334,8 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 75,
-    "enrolled": 75,
+    "maxenrol": 76,
+    "enrolled": 76,
     "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
@@ -133331,8 +133394,8 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 42,
-    "enrolled": 42,
+    "maxenrol": 43,
+    "enrolled": 43,
     "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
@@ -133617,8 +133680,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 38,
-    "seatsavail": 2,
+    "enrolled": 37,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -134696,8 +134759,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 17,
-    "seatsavail": 23,
+    "enrolled": 16,
+    "seatsavail": 24,
     "modality": "Presencial",
     "language": "Español",
     "department": "IMEC"
@@ -135286,8 +135349,8 @@
     "schedules": [],
     "campus": "EXTERNO UNIVERSIDAD",
     "maxenrol": 5,
-    "enrolled": 1,
-    "seatsavail": 4,
+    "enrolled": 0,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "INTL"
@@ -135781,8 +135844,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 29,
-    "enrolled": 27,
-    "seatsavail": 2,
+    "enrolled": 28,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "IQYA"
@@ -135969,8 +136032,8 @@
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 0,
-    "enrolled": 29,
-    "seatsavail": -29,
+    "enrolled": 28,
+    "seatsavail": -28,
     "modality": "Presencial",
     "language": "Español",
     "department": "IQYA"
@@ -137651,8 +137714,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 23,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -137843,8 +137906,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 33,
-    "enrolled": 32,
-    "seatsavail": 1,
+    "enrolled": 33,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -138284,8 +138347,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 24,
-    "seatsavail": 1,
+    "enrolled": 25,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -138332,8 +138395,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 24,
-    "seatsavail": 1,
+    "enrolled": 25,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -138380,8 +138443,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 23,
-    "seatsavail": 2,
+    "enrolled": 24,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -139676,8 +139739,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 24,
-    "seatsavail": 1,
+    "enrolled": 23,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -139964,8 +140027,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -140316,7 +140379,7 @@
     "course": "ISIS1225",
     "title": "ESTRUCTURAS DE DATOS Y ALGORITMOS",
     "credits": 3,
-    "professors": "PACHECO MALAGON MANUELA , CUEVAS ALBA DAVID ",
+    "professors": "CASTRO AVILA JUAN PABLO, CUEVAS ALBA DAVID ",
     "schedules": [
       {
         "day": "L",
@@ -140364,7 +140427,7 @@
     "course": "ISIS1225",
     "title": "ESTRUCTURAS DE DATOS Y ALGORITMOS",
     "credits": 3,
-    "professors": "DE LA ROSA ROSERO MARIO FERNANDO, PACHECO MALAGON MANUELA ",
+    "professors": "DE LA ROSA ROSERO MARIO FERNANDO, OJEDA AMAYA LINA MARIA",
     "schedules": [
       {
         "day": "M",
@@ -140460,7 +140523,7 @@
     "course": "ISIS1225",
     "title": "ESTRUCTURAS DE DATOS Y ALGORITMOS",
     "credits": 3,
-    "professors": "ARTEAGA MARTIN SANTIAGO FELIPE, OJEDA AMAYA LINA MARIA",
+    "professors": "ARTEAGA MARTIN SANTIAGO FELIPE, PACHECO MALAGON MANUELA ",
     "schedules": [
       {
         "day": "M",
@@ -140508,7 +140571,7 @@
     "course": "ISIS1225",
     "title": "ESTRUCTURAS DE DATOS Y ALGORITMOS",
     "credits": 3,
-    "professors": "CASTRO AVILA JUAN PABLO, GARZON VASQUEZ NICOLAS ANDRES",
+    "professors": "PACHECO MALAGON MANUELA , GARZON VASQUEZ NICOLAS ANDRES",
     "schedules": [
       {
         "day": "L",
@@ -140588,8 +140651,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 27,
-    "enrolled": 27,
-    "seatsavail": 0,
+    "enrolled": 26,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -140748,7 +140811,7 @@
     "course": "ISIS1225",
     "title": "ESTRUCTURAS DE DATOS Y ALGORITMOS",
     "credits": 3,
-    "professors": "ROMERO GUTIERREZ GERMAN , PACHECO MALAGON MANUELA ",
+    "professors": "CASTRO AVILA JUAN PABLO, ROMERO GUTIERREZ GERMAN ",
     "schedules": [
       {
         "day": "L",
@@ -140844,7 +140907,7 @@
     "course": "ISIS1225",
     "title": "ESTRUCTURAS DE DATOS Y ALGORITMOS",
     "credits": 3,
-    "professors": "CASTRO AVILA JUAN PABLO, ANGEL FUERTES DANIEL ALEJANDRO",
+    "professors": "ANGEL FUERTES DANIEL ALEJANDRO, PACHECO MALAGON MANUELA ",
     "schedules": [
       {
         "day": "M",
@@ -141015,8 +141078,8 @@
         "day": "M",
         "startTime": "11:00",
         "endTime": "12:20",
-        "building": "O",
-        "room": "305",
+        "building": "AU",
+        "room": "107",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -141024,8 +141087,8 @@
         "day": "J",
         "startTime": "11:00",
         "endTime": "12:20",
-        "building": "O",
-        "room": "305",
+        "building": "AU",
+        "room": "107",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -142472,8 +142535,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 28,
-    "enrolled": 26,
-    "seatsavail": 2,
+    "enrolled": 25,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -143393,8 +143456,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 31,
-    "enrolled": 31,
-    "seatsavail": 0,
+    "enrolled": 30,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -145292,8 +145355,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 36,
-    "seatsavail": 4,
+    "enrolled": 35,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "ISIS"
@@ -145697,8 +145760,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -145901,8 +145964,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 12,
-    "seatsavail": 13,
+    "enrolled": 11,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -146003,8 +146066,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -146105,8 +146168,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 23,
-    "seatsavail": 2,
+    "enrolled": 22,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -146411,8 +146474,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 20,
-    "seatsavail": 5,
+    "enrolled": 19,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -147023,8 +147086,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 24,
-    "seatsavail": 1,
+    "enrolled": 23,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -147227,8 +147290,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -148253,8 +148316,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 23,
-    "seatsavail": 2,
+    "enrolled": 22,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -148392,72 +148455,6 @@
     "department": "LENG"
   },
   {
-    "nrc": "84192",
-    "llave": "84192202620",
-    "term": "202620",
-    "ptrm": "8B",
-    "ptrmdesc": "8 SEMANAS - SEGUNDO CICLO",
-    "class": "13",
-    "course": "LENG1154",
-    "title": "ENGLISH 04 (CICLO 2 DE 8 SEMANAS)",
-    "credits": 0,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "17:00",
-        "endTime": "18:20",
-        "building": "AU",
-        "room": "402",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "M",
-        "startTime": "17:00",
-        "endTime": "18:20",
-        "building": "AU",
-        "room": "402",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "17:00",
-        "endTime": "18:20",
-        "building": "AU",
-        "room": "402",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "J",
-        "startTime": "17:00",
-        "endTime": "18:20",
-        "building": "AU",
-        "room": "402",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "17:00",
-        "endTime": "18:20",
-        "building": "NOREQ",
-        "room": "",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "PPAL-PRESENCIAL/VIRTUAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
     "nrc": "36083",
     "llave": "36083202620",
     "term": "202620",
@@ -148517,8 +148514,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 24,
-    "enrolled": 23,
-    "seatsavail": 1,
+    "enrolled": 22,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -148781,8 +148778,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 23,
-    "seatsavail": 2,
+    "enrolled": 22,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -149111,8 +149108,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 23,
-    "seatsavail": 2,
+    "enrolled": 22,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -149243,8 +149240,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 22,
-    "enrolled": 22,
-    "seatsavail": 0,
+    "enrolled": 21,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -149391,7 +149388,7 @@
     "course": "LENG1155",
     "title": "ENGLISH 05 (CICLO 1 DE 8 SEMANAS)",
     "credits": 0,
-    "professors": "TURNBULL LIAM JAMES",
+    "professors": "MCCORMACK THOMAS MAHLON",
     "schedules": [
       {
         "day": "L",
@@ -149573,8 +149570,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 15,
-    "seatsavail": 10,
+    "enrolled": 14,
+    "seatsavail": 11,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -149589,7 +149586,7 @@
     "course": "LENG1155",
     "title": "ENGLISH 05 (CICLO 1 DE 8 SEMANAS)",
     "credits": 0,
-    "professors": "TURNBULL LIAM JAMES",
+    "professors": "GONZALEZ RODRIGUEZ ALVARO ANDRES",
     "schedules": [
       {
         "day": "L",
@@ -149639,8 +149636,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -149778,72 +149775,6 @@
     "department": "LENG"
   },
   {
-    "nrc": "72043",
-    "llave": "72043202620",
-    "term": "202620",
-    "ptrm": "8B",
-    "ptrmdesc": "8 SEMANAS - SEGUNDO CICLO",
-    "class": "20",
-    "course": "LENG1155",
-    "title": "ENGLISH 05 (CICLO 2 DE 8 SEMANAS)",
-    "credits": 0,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "09:30",
-        "endTime": "10:50",
-        "building": "LL",
-        "room": "202",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "09:30",
-        "endTime": "10:50",
-        "building": "LL",
-        "room": "202",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "M",
-        "startTime": "09:30",
-        "endTime": "10:50",
-        "building": "AU",
-        "room": "309",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "J",
-        "startTime": "09:30",
-        "endTime": "10:50",
-        "building": "AU",
-        "room": "309",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "09:30",
-        "endTime": "10:50",
-        "building": "NOREQ",
-        "room": "",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "PPAL-PRESENCIAL/VIRTUAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
     "nrc": "75005",
     "llave": "75005202620",
     "term": "202620",
@@ -149903,8 +149834,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 25,
-    "seatsavail": 0,
+    "enrolled": 24,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -150035,8 +149966,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 16,
-    "seatsavail": 9,
+    "enrolled": 15,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -150167,8 +150098,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 18,
-    "enrolled": 17,
-    "seatsavail": 1,
+    "enrolled": 16,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -150233,8 +150164,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 23,
-    "seatsavail": 2,
+    "enrolled": 22,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -150563,8 +150494,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 24,
-    "seatsavail": 1,
+    "enrolled": 22,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -150827,8 +150758,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 24,
-    "enrolled": 22,
-    "seatsavail": 2,
+    "enrolled": 21,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -150959,8 +150890,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 22,
-    "enrolled": 20,
-    "seatsavail": 2,
+    "enrolled": 19,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -151164,72 +151095,6 @@
     "department": "LENG"
   },
   {
-    "nrc": "75023",
-    "llave": "75023202620",
-    "term": "202620",
-    "ptrm": "8B",
-    "ptrmdesc": "8 SEMANAS - SEGUNDO CICLO",
-    "class": "21",
-    "course": "LENG1156",
-    "title": "ENGLISH 06 (CICLO 2 DE 8 SEMANAS)",
-    "credits": 0,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "W",
-        "room": "302",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "M",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "W",
-        "room": "302",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "J",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "W",
-        "room": "302",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "W",
-        "room": "302",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "NOREQ",
-        "room": "",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "PPAL-PRESENCIAL/VIRTUAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
     "nrc": "75024",
     "llave": "75024202620",
     "term": "202620",
@@ -151421,8 +151286,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 13,
-    "seatsavail": 12,
+    "enrolled": 12,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -151685,8 +151550,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 20,
-    "seatsavail": 5,
+    "enrolled": 19,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -151997,8 +151862,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 23,
-    "seatsavail": 1,
+    "enrolled": 22,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -152054,8 +151919,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -152339,8 +152204,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 20,
-    "seatsavail": 5,
+    "enrolled": 19,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -152624,8 +152489,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 21,
-    "seatsavail": 4,
+    "enrolled": 20,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -152681,8 +152546,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Virtual",
     "language": "Español",
     "department": "LENG"
@@ -153935,8 +153800,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 23,
-    "seatsavail": 2,
+    "enrolled": 22,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -154284,63 +154149,6 @@
     "department": "LENG"
   },
   {
-    "nrc": "72091",
-    "llave": "72091202620",
-    "term": "202620",
-    "ptrm": "8B",
-    "ptrmdesc": "8 SEMANAS - SEGUNDO CICLO",
-    "class": "23",
-    "course": "LENG1158",
-    "title": "ENGLISH 08 - WRITING 1 (CICLO 2 DE 8 SEMANAS)",
-    "credits": 0,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "M",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "AU",
-        "room": "402",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "J",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "AU",
-        "room": "402",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "O",
-        "room": "103",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "O",
-        "room": "103",
-        "dateIni": "2026-10-05 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
     "nrc": "75037",
     "llave": "75037202620",
     "term": "202620",
@@ -154391,8 +154199,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 14,
-    "seatsavail": 11,
+    "enrolled": 13,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -155123,8 +154931,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 21,
-    "seatsavail": 4,
+    "enrolled": 20,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -155555,8 +155363,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 22,
-    "seatsavail": 0,
+    "enrolled": 21,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -155939,8 +155747,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 7,
-    "seatsavail": 15,
+    "enrolled": 6,
+    "seatsavail": 16,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -156083,8 +155891,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 21,
-    "seatsavail": 3,
+    "enrolled": 20,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -156435,7 +156243,7 @@
     "course": "LENG1161",
     "title": "ENGLISH 10A SPEAKING 2 FOR ACADEMIC PURPOSES (CICLO 1 DE 8 SEMANAS)",
     "credits": 0,
-    "professors": "TURNBULL LIAM JAMES",
+    "professors": "MCNEIL FERNANDEZ ALEJANDRO ",
     "schedules": [
       {
         "day": "L",
@@ -156666,54 +156474,6 @@
     "department": "LENG"
   },
   {
-    "nrc": "65968",
-    "llave": "65968202620",
-    "term": "202620",
-    "ptrm": "8A",
-    "ptrmdesc": "8 SEMANAS - PRIMER CICLO",
-    "class": "2",
-    "course": "LENG1161",
-    "title": "ENGLISH 10A SPEAKING 2 FOR ACADEMIC PURPOSES (CICLO 1 DE 8 SEMANAS)",
-    "credits": 0,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "O",
-        "room": "103",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-09-26 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "O",
-        "room": "103",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-09-26 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "O",
-        "room": "103",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-09-26 00:00:00"
-      }
-    ],
-    "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
     "nrc": "75317",
     "llave": "75317202620",
     "term": "202620",
@@ -156755,8 +156515,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 24,
-    "seatsavail": 1,
+    "enrolled": 23,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -156803,8 +156563,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 22,
-    "seatsavail": 3,
+    "enrolled": 21,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -156851,8 +156611,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 24,
-    "seatsavail": 1,
+    "enrolled": 23,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -157427,56 +157187,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 16,
-    "seatsavail": 9,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
-    "nrc": "30778",
-    "llave": "30778202620",
-    "term": "202620",
-    "ptrm": "8A",
-    "ptrmdesc": "8 SEMANAS - PRIMER CICLO",
-    "class": "3",
-    "course": "LENG1162",
-    "title": "ENGLISH 10B: SPEAKING AND WRITING FOR PROFESSIONAL PURPOSES (CICLO 1 DE 8 SEMANAS)",
-    "credits": 0,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "C",
-        "room": "212",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-09-26 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "AU",
-        "room": "302",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-09-26 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "12:30",
-        "endTime": "13:50",
-        "building": "AU",
-        "room": "302",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-09-26 00:00:00"
-      }
-    ],
-    "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
+    "enrolled": 15,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -158088,54 +157800,6 @@
     "department": "LENG"
   },
   {
-    "nrc": "80873",
-    "llave": "80873202620",
-    "term": "202620",
-    "ptrm": "1",
-    "ptrmdesc": "16 SEMANAS",
-    "class": "1",
-    "course": "LENG1202",
-    "title": "FRANCES 2",
-    "credits": 3,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "08:00",
-        "endTime": "09:20",
-        "building": "W",
-        "room": "301",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "08:00",
-        "endTime": "09:20",
-        "building": "C",
-        "room": "207",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "08:00",
-        "endTime": "09:20",
-        "building": "AU",
-        "room": "306",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
     "nrc": "66057",
     "llave": "66057202620",
     "term": "202620",
@@ -158508,7 +158172,7 @@
         "building": "ML",
         "room": "120",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "M",
@@ -158517,7 +158181,7 @@
         "building": "ML",
         "room": "120",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "I",
@@ -158526,7 +158190,7 @@
         "building": "ML",
         "room": "120",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "J",
@@ -158535,7 +158199,7 @@
         "building": "ML",
         "room": "120",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "V",
@@ -158544,6 +158208,42 @@
         "building": "ML",
         "room": "120",
         "dateIni": "2026-08-03 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "L",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "C",
+        "room": "210",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "M",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "AU",
+        "room": "303",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "I",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "AU",
+        "room": "307",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "J",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "AU",
+        "room": "307",
+        "dateIni": "2026-08-24 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
@@ -158963,8 +158663,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 10,
-    "seatsavail": 15,
+    "enrolled": 11,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -159036,7 +158736,25 @@
         "building": "ML",
         "room": "117",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
+      },
+      {
+        "day": "J",
+        "startTime": "09:30",
+        "endTime": "10:50",
+        "building": "ML",
+        "room": "117",
+        "dateIni": "2026-08-03 00:00:00",
+        "dateFin": "2026-08-23 00:00:00"
+      },
+      {
+        "day": "V",
+        "startTime": "09:30",
+        "endTime": "10:50",
+        "building": "ML",
+        "room": "117",
+        "dateIni": "2026-08-03 00:00:00",
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "M",
@@ -159057,21 +158775,30 @@
         "dateFin": "2026-11-28 00:00:00"
       },
       {
+        "day": "L",
+        "startTime": "09:30",
+        "endTime": "10:50",
+        "building": "AU",
+        "room": "402",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
         "day": "J",
         "startTime": "09:30",
         "endTime": "10:50",
-        "building": "ML",
-        "room": "117",
-        "dateIni": "2026-08-03 00:00:00",
+        "building": "AU",
+        "room": "208",
+        "dateIni": "2026-08-24 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
       {
         "day": "V",
         "startTime": "09:30",
         "endTime": "10:50",
-        "building": "ML",
-        "room": "117",
-        "dateIni": "2026-08-03 00:00:00",
+        "building": "AU",
+        "room": "303",
+        "dateIni": "2026-08-24 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
@@ -159317,56 +159044,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 19,
-    "seatsavail": 6,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
-    "nrc": "54715",
-    "llave": "54715202620",
-    "term": "202620",
-    "ptrm": "1",
-    "ptrmdesc": "16 SEMANAS",
-    "class": "1",
-    "course": "LENG1402",
-    "title": "JAPONES 2",
-    "credits": 3,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "11:00",
-        "endTime": "12:20",
-        "building": "C",
-        "room": "212",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "11:00",
-        "endTime": "12:20",
-        "building": "C",
-        "room": "108",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "11:00",
-        "endTime": "12:20",
-        "building": "CJ",
-        "room": "203",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
+    "enrolled": 20,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -159548,8 +159227,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 11,
-    "seatsavail": 9,
+    "enrolled": 10,
+    "seatsavail": 10,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -159740,8 +159419,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 15,
-    "seatsavail": 7,
+    "enrolled": 16,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -159932,8 +159611,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 22,
-    "enrolled": 22,
-    "seatsavail": 0,
+    "enrolled": 21,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -159980,8 +159659,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 20,
-    "seatsavail": 5,
+    "enrolled": 19,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -160108,54 +159787,6 @@
     "maxenrol": 25,
     "enrolled": 14,
     "seatsavail": 11,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
-    "nrc": "72207",
-    "llave": "72207202620",
-    "term": "202620",
-    "ptrm": "1",
-    "ptrmdesc": "16 SEMANAS",
-    "class": "1",
-    "course": "LENG1602",
-    "title": "ITALIANO 2",
-    "credits": 3,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "06:30",
-        "endTime": "07:50",
-        "building": "AU",
-        "room": "208",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "06:30",
-        "endTime": "07:50",
-        "building": "AU",
-        "room": "208",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "06:30",
-        "endTime": "07:50",
-        "building": "AU",
-        "room": "208",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -160394,8 +160025,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 19,
-    "seatsavail": 6,
+    "enrolled": 18,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -160490,8 +160121,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 25,
-    "enrolled": 19,
-    "seatsavail": 6,
+    "enrolled": 20,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -160538,8 +160169,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 23,
-    "seatsavail": 1,
+    "enrolled": 22,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -160808,8 +160439,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 18,
-    "enrolled": 14,
-    "seatsavail": 4,
+    "enrolled": 13,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -161009,8 +160640,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 13,
-    "seatsavail": 2,
+    "enrolled": 14,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -161670,7 +161301,7 @@
         "building": "ML",
         "room": "117",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "M",
@@ -161679,7 +161310,7 @@
         "building": "ML",
         "room": "117",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "I",
@@ -161688,7 +161319,7 @@
         "building": "ML",
         "room": "117",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "J",
@@ -161697,7 +161328,7 @@
         "building": "ML",
         "room": "117",
         "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
+        "dateFin": "2026-08-23 00:00:00"
       },
       {
         "day": "V",
@@ -161706,6 +161337,42 @@
         "building": "ML",
         "room": "117",
         "dateIni": "2026-08-03 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "L",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "C",
+        "room": "206",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "M",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "AU",
+        "room": "305",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "J",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "AU",
+        "room": "305",
+        "dateIni": "2026-08-24 00:00:00",
+        "dateFin": "2026-11-28 00:00:00"
+      },
+      {
+        "day": "I",
+        "startTime": "14:00",
+        "endTime": "15:20",
+        "building": "AU",
+        "room": "204",
+        "dateIni": "2026-08-24 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
@@ -162063,54 +161730,6 @@
     "department": "LENG"
   },
   {
-    "nrc": "74358",
-    "llave": "74358202620",
-    "term": "202620",
-    "ptrm": "1",
-    "ptrmdesc": "16 SEMANAS",
-    "class": "1",
-    "course": "LENG2312",
-    "title": "ALEMAN 6",
-    "credits": 3,
-    "professors": "",
-    "schedules": [
-      {
-        "day": "L",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "C",
-        "room": "212",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "I",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "C",
-        "room": "212",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      },
-      {
-        "day": "V",
-        "startTime": "15:30",
-        "endTime": "16:50",
-        "building": "C",
-        "room": "212",
-        "dateIni": "2026-08-03 00:00:00",
-        "dateFin": "2026-11-28 00:00:00"
-      }
-    ],
-    "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 0,
-    "enrolled": 0,
-    "seatsavail": 0,
-    "modality": "Presencial",
-    "language": "Español",
-    "department": "LENG"
-  },
-  {
     "nrc": "69193",
     "llave": "69193202620",
     "term": "202620",
@@ -162309,8 +161928,8 @@
         "day": "L",
         "startTime": "17:00",
         "endTime": "18:20",
-        "building": "Q",
-        "room": "307",
+        "building": "LL",
+        "room": "203",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -162318,16 +161937,16 @@
         "day": "I",
         "startTime": "17:00",
         "endTime": "18:20",
-        "building": "Q",
-        "room": "307",
+        "building": "LL",
+        "room": "203",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 40,
+    "maxenrol": 25,
     "enrolled": 18,
-    "seatsavail": 22,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "LENG"
@@ -164048,8 +163667,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 25,
-    "enrolled": 15,
-    "seatsavail": 10,
+    "enrolled": 14,
+    "seatsavail": 11,
     "modality": "Virtual",
     "language": "Español",
     "department": "LENG"
@@ -164498,8 +164117,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 18,
-    "enrolled": 7,
-    "seatsavail": 11,
+    "enrolled": 6,
+    "seatsavail": 12,
     "modality": "Virtual",
     "language": "Español",
     "department": "LENG"
@@ -164555,8 +164174,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 18,
-    "enrolled": 16,
-    "seatsavail": 2,
+    "enrolled": 15,
+    "seatsavail": 3,
     "modality": "Virtual",
     "language": "Español",
     "department": "LENG"
@@ -165197,8 +164816,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 14,
-    "enrolled": 17,
-    "seatsavail": -3,
+    "enrolled": 16,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "LITE"
@@ -166870,12 +166489,40 @@
     "title": "INTENSIVO MARQ",
     "credits": 1,
     "professors": "",
-    "schedules": [],
+    "schedules": [
+      {
+        "day": "J",
+        "startTime": "18:00",
+        "endTime": "19:50",
+        "building": "NOREQ",
+        "room": "",
+        "dateIni": "2026-10-15 00:00:00",
+        "dateFin": "2026-10-15 00:00:00"
+      },
+      {
+        "day": "S",
+        "startTime": "09:00",
+        "endTime": "11:50",
+        "building": "NOREQ",
+        "room": "",
+        "dateIni": "2026-10-17 00:00:00",
+        "dateFin": "2026-10-24 00:00:00"
+      },
+      {
+        "day": "S",
+        "startTime": "09:00",
+        "endTime": "11:50",
+        "building": "NOREQ",
+        "room": "",
+        "dateIni": "2026-11-07 00:00:00",
+        "dateFin": "2026-11-07 00:00:00"
+      }
+    ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 5,
     "enrolled": 0,
     "seatsavail": 5,
-    "modality": "Presencial",
+    "modality": "Virtual",
     "language": "Español",
     "department": "MARQ"
   },
@@ -167842,8 +167489,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 17,
-    "seatsavail": 13,
+    "enrolled": 16,
+    "seatsavail": 14,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -168130,8 +167777,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 49,
-    "seatsavail": 1,
+    "enrolled": 50,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -168526,8 +168173,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 81,
-    "enrolled": 80,
-    "seatsavail": 1,
+    "enrolled": 79,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -168994,8 +168641,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 27,
-    "enrolled": 27,
-    "seatsavail": 0,
+    "enrolled": 26,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -169515,9 +169162,9 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 36,
+    "maxenrol": 38,
     "enrolled": 38,
-    "seatsavail": -2,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -169780,8 +169427,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 36,
-    "enrolled": 35,
-    "seatsavail": 1,
+    "enrolled": 36,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -169977,8 +169624,8 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 38,
-    "enrolled": 38,
+    "maxenrol": 39,
+    "enrolled": 39,
     "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
@@ -170505,9 +170152,9 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 37,
+    "maxenrol": 38,
     "enrolled": 38,
-    "seatsavail": -1,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -170638,8 +170285,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 37,
-    "enrolled": 34,
-    "seatsavail": 3,
+    "enrolled": 35,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -171166,8 +170813,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 38,
-    "seatsavail": -3,
+    "enrolled": 37,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -171272,8 +170919,8 @@
         "day": "V",
         "startTime": "06:30",
         "endTime": "07:50",
-        "building": "CJ",
-        "room": "001",
+        "building": "C",
+        "room": "209",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -171519,9 +171166,9 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 50,
-    "enrolled": 53,
-    "seatsavail": -3,
+    "maxenrol": 54,
+    "enrolled": 54,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -172042,8 +171689,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 82,
-    "enrolled": 89,
-    "seatsavail": -7,
+    "enrolled": 88,
+    "seatsavail": -6,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -172744,8 +172391,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 27,
-    "enrolled": 30,
-    "seatsavail": -3,
+    "enrolled": 29,
+    "seatsavail": -2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -174160,8 +173807,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 48,
-    "enrolled": 47,
-    "seatsavail": 1,
+    "enrolled": 48,
+    "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -174412,8 +174059,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 81,
-    "enrolled": 81,
-    "seatsavail": 0,
+    "enrolled": 80,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -174919,8 +174566,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 27,
-    "enrolled": 27,
-    "seatsavail": 0,
+    "enrolled": 26,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -175624,8 +175271,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 39,
-    "enrolled": 41,
-    "seatsavail": -2,
+    "enrolled": 40,
+    "seatsavail": -1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -177445,8 +177092,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 65,
-    "enrolled": 61,
-    "seatsavail": 4,
+    "enrolled": 59,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "MATE"
@@ -177594,7 +177241,7 @@
         "startTime": "15:30",
         "endTime": "16:50",
         "building": "O",
-        "room": "302",
+        "room": "203",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -177603,7 +177250,7 @@
         "startTime": "15:30",
         "endTime": "16:50",
         "building": "O",
-        "room": "302",
+        "room": "203",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
@@ -180642,8 +180289,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 65,
-    "enrolled": 64,
-    "seatsavail": 1,
+    "enrolled": 62,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -180750,8 +180397,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 30,
-    "seatsavail": 2,
+    "enrolled": 29,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -180900,8 +180547,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 26,
-    "enrolled": 25,
-    "seatsavail": 1,
+    "enrolled": 24,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -180991,8 +180638,8 @@
         "day": "I",
         "startTime": "14:00",
         "endTime": "14:50",
-        "building": "J",
-        "room": "102",
+        "building": "C",
+        "room": "211",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-09-26 00:00:00"
       },
@@ -181000,8 +180647,8 @@
         "day": "I",
         "startTime": "15:00",
         "endTime": "17:50",
-        "building": "J",
-        "room": "102",
+        "building": "C",
+        "room": "211",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-09-26 00:00:00"
       }
@@ -181470,8 +181117,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 35,
-    "seatsavail": 5,
+    "enrolled": 34,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -181525,7 +181172,7 @@
     "course": "MBIO3122",
     "title": "HELMINTOS PARÁSITOS Y ECTOPARÁSITOS (CICLO 2 DE 8 SEMANAS)",
     "credits": 2,
-    "professors": "GONZALEZ ROSAS CAMILA , JIMENEZ ANAYA CARLOS DANIEL",
+    "professors": "PARRA MUÑOZ DIANA MARCELA, JIMENEZ ANAYA CARLOS DANIEL",
     "schedules": [
       {
         "day": "M",
@@ -181644,8 +181291,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 29,
-    "seatsavail": 1,
+    "enrolled": 28,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -181827,8 +181474,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 29,
-    "seatsavail": 3,
+    "enrolled": 28,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -181962,8 +181609,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 32,
-    "seatsavail": 0,
+    "enrolled": 31,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -182070,8 +181717,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 18,
-    "seatsavail": 2,
+    "enrolled": 17,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -182100,8 +181747,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 31,
-    "enrolled": 26,
-    "seatsavail": 5,
+    "enrolled": 25,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -182139,8 +181786,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 39,
-    "enrolled": 38,
-    "seatsavail": 1,
+    "enrolled": 37,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MBIO"
@@ -183015,8 +182662,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 30,
-    "enrolled": 13,
-    "seatsavail": 17,
+    "enrolled": 12,
+    "seatsavail": 18,
     "modality": "Virtual",
     "language": "Español",
     "department": "MBIT"
@@ -183185,8 +182832,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 20,
-    "enrolled": 10,
-    "seatsavail": 10,
+    "enrolled": 9,
+    "seatsavail": 11,
     "modality": "Virtual",
     "language": "Español",
     "department": "MCLA"
@@ -183201,7 +182848,7 @@
     "course": "MDER4020",
     "title": "SEMINARIO DE CONCENTRACIÓN: TEORÍAS CRIMINOLÓGICAS:EL PROBLEMA DEL CUERPO EN LAS PRÁCTICAS PUNITIVAS",
     "credits": 4,
-    "professors": "ARIZA HIGUERA LIBARDO JOSE, TAMAYO ARBOLEDA FERNANDO LEON, ARANGO GALLEGO MARTIN ",
+    "professors": "ARIZA HIGUERA LIBARDO JOSE, TAMAYO ARBOLEDA FERNANDO LEON, ARANGO GALLEGO MARTIN , SUAREZ ORTIZ GIOVANA ",
     "schedules": [
       {
         "day": "J",
@@ -183275,8 +182922,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 10,
-    "seatsavail": 50,
+    "enrolled": 9,
+    "seatsavail": 51,
     "modality": "Presencial",
     "language": "Español",
     "department": "MDER"
@@ -183305,8 +182952,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 14,
-    "seatsavail": 16,
+    "enrolled": 13,
+    "seatsavail": 17,
     "modality": "Presencial",
     "language": "Español",
     "department": "MDER"
@@ -183655,8 +183302,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 16,
-    "enrolled": 15,
-    "seatsavail": 1,
+    "enrolled": 14,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MDIS"
@@ -184013,8 +183660,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 17,
-    "enrolled": 17,
-    "seatsavail": 0,
+    "enrolled": 16,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MDIS"
@@ -184333,8 +183980,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 35,
-    "enrolled": 19,
-    "seatsavail": 16,
+    "enrolled": 20,
+    "seatsavail": 15,
     "modality": "Virtual",
     "language": "Español",
     "department": "MECA"
@@ -184363,8 +184010,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 19,
-    "seatsavail": 16,
+    "enrolled": 20,
+    "seatsavail": 15,
     "modality": "Presencial",
     "language": "Español",
     "department": "MECA"
@@ -184941,8 +184588,8 @@
     ],
     "campus": "MEDICINA-CENTRO DE PRACTICAS",
     "maxenrol": 65,
-    "enrolled": 62,
-    "seatsavail": 3,
+    "enrolled": 60,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185052,8 +184699,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 115,
-    "enrolled": 82,
-    "seatsavail": 33,
+    "enrolled": 83,
+    "seatsavail": 32,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185480,8 +185127,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 90,
-    "enrolled": 71,
-    "seatsavail": 19,
+    "enrolled": 72,
+    "seatsavail": 18,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185615,8 +185262,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 120,
-    "enrolled": 115,
-    "seatsavail": 5,
+    "enrolled": 114,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185750,8 +185397,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 110,
-    "enrolled": 98,
-    "seatsavail": 12,
+    "enrolled": 97,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185807,8 +185454,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 110,
-    "enrolled": 103,
-    "seatsavail": 7,
+    "enrolled": 102,
+    "seatsavail": 8,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185864,8 +185511,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 119,
-    "enrolled": 119,
-    "seatsavail": 0,
+    "enrolled": 118,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185921,8 +185568,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 120,
-    "enrolled": 113,
-    "seatsavail": 7,
+    "enrolled": 112,
+    "seatsavail": 8,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -185978,8 +185625,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 75,
-    "enrolled": 61,
-    "seatsavail": 14,
+    "enrolled": 62,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -186008,8 +185655,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 50,
-    "enrolled": 48,
-    "seatsavail": 2,
+    "enrolled": 46,
+    "seatsavail": 4,
     "modality": "Virtual",
     "language": "Español",
     "department": "MEDI"
@@ -186146,8 +185793,8 @@
     ],
     "campus": "MEDICINA-CENTRO DE PRACTICAS",
     "maxenrol": 80,
-    "enrolled": 69,
-    "seatsavail": 11,
+    "enrolled": 68,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "MEDI"
@@ -187220,8 +186867,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 30,
-    "enrolled": 15,
-    "seatsavail": 15,
+    "enrolled": 14,
+    "seatsavail": 16,
     "modality": "Virtual",
     "language": "Español",
     "department": "MEDI"
@@ -220473,8 +220120,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 49,
-    "seatsavail": 1,
+    "enrolled": 48,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MFIN"
@@ -221565,8 +221212,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 19,
-    "seatsavail": 11,
+    "enrolled": 18,
+    "seatsavail": 12,
     "modality": "Presencial",
     "language": "Español",
     "department": "MGAP"
@@ -222847,8 +222494,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 0,
-    "enrolled": 25,
-    "seatsavail": -25,
+    "enrolled": 24,
+    "seatsavail": -24,
     "modality": "Presencial",
     "language": "Español",
     "department": "MGPU"
@@ -223144,8 +222791,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 52,
-    "enrolled": 61,
-    "seatsavail": -9,
+    "enrolled": 60,
+    "seatsavail": -8,
     "modality": "Presencial",
     "language": "Español",
     "department": "MGPU"
@@ -223850,8 +223497,8 @@
     ],
     "campus": "VIRTUAL",
     "maxenrol": 20,
-    "enrolled": 21,
-    "seatsavail": -1,
+    "enrolled": 19,
+    "seatsavail": 1,
     "modality": "Virtual",
     "language": "Español",
     "department": "MHAR"
@@ -224536,8 +224183,8 @@
     ],
     "campus": "PPAL-PRESENCIAL/VIRTUAL",
     "maxenrol": 33,
-    "enrolled": 29,
-    "seatsavail": 4,
+    "enrolled": 28,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "MINE"
@@ -225621,8 +225268,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 43,
-    "enrolled": 42,
-    "seatsavail": 1,
+    "enrolled": 41,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "MMBA"
@@ -225714,8 +225361,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 42,
-    "enrolled": 42,
-    "seatsavail": 0,
+    "enrolled": 41,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -225807,8 +225454,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 45,
-    "seatsavail": 0,
+    "enrolled": 43,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -225900,8 +225547,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 37,
-    "seatsavail": 3,
+    "enrolled": 36,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -225993,8 +225640,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 53,
-    "enrolled": 53,
-    "seatsavail": 0,
+    "enrolled": 52,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -226086,8 +225733,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 41,
-    "enrolled": 40,
-    "seatsavail": 1,
+    "enrolled": 39,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -226458,8 +226105,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 46,
-    "enrolled": 46,
-    "seatsavail": 0,
+    "enrolled": 44,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -226914,8 +226561,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 39,
-    "enrolled": 36,
-    "seatsavail": 3,
+    "enrolled": 34,
+    "seatsavail": 5,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -227453,8 +227100,8 @@
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
-    "maxenrol": 32,
-    "enrolled": 32,
+    "maxenrol": 33,
+    "enrolled": 33,
     "seatsavail": 0,
     "modality": "Presencial",
     "language": "Español",
@@ -227640,8 +227287,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 43,
-    "enrolled": 43,
-    "seatsavail": 0,
+    "enrolled": 42,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MMBA"
@@ -227733,8 +227380,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 41,
-    "enrolled": 40,
-    "seatsavail": 1,
+    "enrolled": 39,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Inglés",
     "department": "MMBA"
@@ -229577,8 +229224,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 47,
-    "enrolled": 45,
-    "seatsavail": 2,
+    "enrolled": 44,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "MSIN"
@@ -229667,8 +229314,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 32,
-    "enrolled": 30,
-    "seatsavail": 2,
+    "enrolled": 29,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "MSIN"
@@ -230032,8 +229679,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 12,
-    "seatsavail": 3,
+    "enrolled": 11,
+    "seatsavail": 4,
     "modality": "Presencial",
     "language": "Español",
     "department": "MUSI"
@@ -230431,8 +230078,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 20,
-    "seatsavail": 0,
+    "enrolled": 19,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MUSI"
@@ -230453,8 +230100,8 @@
         "day": "L",
         "startTime": "09:00",
         "endTime": "10:50",
-        "building": "TX",
-        "room": "602",
+        "building": "SD",
+        "room": "307",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -230569,8 +230216,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 20,
-    "enrolled": 8,
-    "seatsavail": 12,
+    "enrolled": 7,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "MUSI"
@@ -230719,8 +230366,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 15,
-    "seatsavail": 0,
+    "enrolled": 14,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MUSI"
@@ -233261,8 +232908,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 15,
-    "seatsavail": 0,
+    "enrolled": 14,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "MUSI"
@@ -233300,8 +232947,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 7,
-    "seatsavail": 8,
+    "enrolled": 6,
+    "seatsavail": 9,
     "modality": "Presencial",
     "language": "Español",
     "department": "MUSI"
@@ -233777,8 +233424,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 15,
-    "enrolled": 10,
-    "seatsavail": 5,
+    "enrolled": 9,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "MUSI"
@@ -237545,8 +237192,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 45,
-    "enrolled": 50,
-    "seatsavail": -5,
+    "enrolled": 49,
+    "seatsavail": -4,
     "modality": "Presencial",
     "language": "Español",
     "department": "NADI"
@@ -237881,8 +237528,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 23,
-    "seatsavail": 17,
+    "enrolled": 22,
+    "seatsavail": 18,
     "modality": "Presencial",
     "language": "Español",
     "department": "NADI"
@@ -240731,8 +240378,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 30,
-    "enrolled": 30,
-    "seatsavail": 0,
+    "enrolled": 29,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSCL"
@@ -241716,8 +241363,8 @@
     "schedules": [],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 6,
-    "enrolled": 6,
-    "seatsavail": 0,
+    "enrolled": 5,
+    "seatsavail": 1,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -241775,8 +241422,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 57,
-    "seatsavail": 3,
+    "enrolled": 58,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -241931,8 +241578,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 55,
-    "enrolled": 48,
-    "seatsavail": 7,
+    "enrolled": 49,
+    "seatsavail": 6,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -242048,8 +241695,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 59,
-    "seatsavail": 1,
+    "enrolled": 58,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -242360,8 +242007,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 59,
-    "enrolled": 56,
-    "seatsavail": 3,
+    "enrolled": 57,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -242792,8 +242439,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 60,
-    "enrolled": 58,
-    "seatsavail": 2,
+    "enrolled": 57,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -242871,8 +242518,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 38,
-    "seatsavail": 2,
+    "enrolled": 37,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -242961,8 +242608,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 57,
-    "enrolled": 45,
-    "seatsavail": 12,
+    "enrolled": 44,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -243081,8 +242728,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 55,
-    "enrolled": 54,
-    "seatsavail": 1,
+    "enrolled": 53,
+    "seatsavail": 2,
     "modality": "Presencial",
     "language": "Español",
     "department": "PSIG"
@@ -244323,8 +243970,8 @@
         "day": "M",
         "startTime": "15:30",
         "endTime": "16:50",
-        "building": "ML",
-        "room": "603",
+        "building": "O",
+        "room": "205",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       },
@@ -244332,16 +243979,16 @@
         "day": "J",
         "startTime": "15:30",
         "endTime": "16:50",
-        "building": "ML",
-        "room": "603",
+        "building": "O",
+        "room": "205",
         "dateIni": "2026-08-03 00:00:00",
         "dateFin": "2026-11-28 00:00:00"
       }
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 70,
-    "enrolled": 44,
-    "seatsavail": 26,
+    "enrolled": 43,
+    "seatsavail": 27,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
@@ -244379,8 +244026,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 72,
-    "enrolled": 70,
-    "seatsavail": 2,
+    "enrolled": 69,
+    "seatsavail": 3,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
@@ -244643,8 +244290,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 44,
-    "seatsavail": 6,
+    "enrolled": 43,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
@@ -244703,8 +244350,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 33,
-    "seatsavail": 7,
+    "enrolled": 32,
+    "seatsavail": 8,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
@@ -245153,8 +244800,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 24,
-    "seatsavail": 0,
+    "enrolled": 23,
+    "seatsavail": 1,
     "modality": "Virtual",
     "language": "Español",
     "department": "QUIM"
@@ -245393,8 +245040,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 24,
-    "enrolled": 21,
-    "seatsavail": 3,
+    "enrolled": 20,
+    "seatsavail": 4,
     "modality": "Virtual",
     "language": "Español",
     "department": "QUIM"
@@ -246011,8 +245658,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 29,
-    "seatsavail": 21,
+    "enrolled": 28,
+    "seatsavail": 22,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
@@ -246041,8 +245688,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 50,
-    "enrolled": 29,
-    "seatsavail": 21,
+    "enrolled": 28,
+    "seatsavail": 22,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
@@ -246119,8 +245766,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 35,
-    "enrolled": 27,
-    "seatsavail": 8,
+    "enrolled": 28,
+    "seatsavail": 7,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
@@ -247298,8 +246945,8 @@
     ],
     "campus": "CAMPUS PRINCIPAL",
     "maxenrol": 40,
-    "enrolled": 26,
-    "seatsavail": 14,
+    "enrolled": 27,
+    "seatsavail": 13,
     "modality": "Presencial",
     "language": "Español",
     "department": "QUIM"
